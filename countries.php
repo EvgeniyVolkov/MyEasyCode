@@ -24,3 +24,13 @@ print_r($countries);
 echo $countries[1]['cities'][2]['population'];
 $countries[1]['cities'][3] = array('name' => 'Dnepr', 'population' => 1400000);
 print_r($countries);
+$countries[2] = array(
+        'name' => 'Georgia',
+        'population' => 5000000,
+        'language' => array('georgian', 'english', 'russian'),
+        'cities' => array(
+            array('name' => 'Tbilisi', 'population' => 700000),
+            array('name' => 'Batumi', 'population' => 500000)
+          )
+        );
+print_r($countries);
