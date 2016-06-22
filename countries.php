@@ -22,3 +22,5 @@ $countries = array(
 );
 print_r($countries);
 echo $countries[1]['cities'][2]['population'];
+$countries[1]['cities'][3] = array('name' => 'Dnepr', 'population' => 1400000);
+print_r($countries);
