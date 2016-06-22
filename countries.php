@@ -21,3 +21,4 @@ $countries = array(
     )
 );
 print_r($countries);
+echo $countries[1]['cities'][2]['population'];
