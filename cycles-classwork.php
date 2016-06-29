@@ -24,8 +24,6 @@ $carCenter = array(
         )
     )
 );
-foreach ($carCenter as $key => $brands) {
-    foreach ($brands as $brandName => $models) {
-        echo $brandName . ', ';
-    }
+foreach ($carCenter['brands']['bmw']['models'] as $model => $modelYear) {
+        echo $model . ', ';
 }
