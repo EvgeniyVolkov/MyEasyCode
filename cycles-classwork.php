@@ -21,9 +21,29 @@ $carCenter = array(
                     )
                 )
             )
+        ),
+        'toyota' => array(
+            'models' => array(
+                'camry' => array(
+                    'years' => array(
+                        1999,
+                        2000
+                    )
+                ),
+                'corolla' => array(
+                    'years' => array(
+                        2003,
+                        2004
+                    )
+                )
+            )
         )
     )
 );
-foreach ($carCenter['brands']['bmw']['models'] as $model => $modelYear) {
-        echo $model . ', ';
+foreach ($carCenter['brands'] as $brandName => $models) {
+    foreach ($models['models'] as $modelName => $years) {
+    	foreach ($years['years'] as $key => $year) {
+        echo $year . ', ';
+    	}
+    }
 }
