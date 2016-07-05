@@ -1,5 +1,4 @@
 <?php
-
 $colors = array();
 // ... some code
 $colors[] = 'green';
@@ -9,8 +8,6 @@ echo 'Old colors array: ';
 echo '<pre>';
 print_r($colors);
 echo '</pre>';
-
-
 echo 'New colors array: ';
 $newColors = array();
 foreach ($colors as $index => $colorName) {
