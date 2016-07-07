@@ -3,7 +3,7 @@
 $bucketOfApples = array(2, 5, 8, 1, 12, 33, 1, 5, 2, 4, 9, 44, 3);
 
 /*
- $biggestApple = $bucketOfApples[0];
+$biggestApple = $bucketOfApples[0];
 
 for ($i = 1; $i < count($bucketOfApples); $i++) {
     $currentApple = $bucketOfApples[$i];
@@ -23,6 +23,7 @@ foreach ($bucketOfApples as $currentApple) {
 
 */
 
+/*
 $biggestApple = $bucketOfApples[0];
 $i = 1;
 while ($i < count($bucketOfApples)) {
@@ -34,11 +35,44 @@ while ($i < count($bucketOfApples)) {
 }
 
 echo 'Самое большое яблоко: ' . $biggestApple;
+*/
 
 /*
 $i = 0;
 while ($i < count($bucketOfApples)) {
 	echo $bucketOfApples[$i] . ', ';
 	$i++;
+}
+
+*/
+
+$i = 1;
+while ($i <= 100) {
+	echo $i . '<br />';
+	$i++;
+}
+
+$i = 1;
+$sum = 0;
+while ($i <= 100) {
+	$sum = $sum + $i;
+	$i++;
+}
+echo 'Сумма всех чисел: ' . $sum;
+
+/*
+$firstApple = $bucketOfApples[0];
+$bucketOfApples = array(2, 5, 8, 1, 12, 33, 1, 5, 2, 4, 9, 44, 3);
+for ($i = 0; $i < count($bucketOfApples); $i++) {
+    $currentApple = $bucketOfApples[$i];
+}
+*/
+
+/*
+$biggestApple = $bucketOfApples[0];
+foreach ($bucketOfApples as $currentApple) {
+    if ($currentApple > $biggestApple && ($currentApple % 2) == 0) {
+    $biggestApple = $currentApple;
+    }
 }
 */
