@@ -23,11 +23,10 @@ foreach ($bucketOfApples as $currentApple) {
 
 */
 
-/*
 $biggestApple = $bucketOfApples[0];
-$currentApple = $bucketOfApples[$i];
 $i = 1;
 while ($i < count($bucketOfApples)) {
+	$currentApple = $bucketOfApples[$i];
     if ($currentApple > $biggestApple) {
         $biggestApple = $currentApple;
 	}
@@ -35,10 +34,11 @@ while ($i < count($bucketOfApples)) {
 }
 
 echo 'Самое большое яблоко: ' . $biggestApple;
-*/
 
+/*
 $i = 0;
 while ($i < count($bucketOfApples)) {
 	echo $bucketOfApples[$i] . ', ';
 	$i++;
 }
+*/
