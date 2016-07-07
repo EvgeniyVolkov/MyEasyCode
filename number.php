@@ -29,3 +29,20 @@ while ($i < 7) {
 }
 echo 'Число ' . $a . ' в ' . $i . '-й степени = ' . $b . '<br />';
 */
+
+/*
+echo '<br />New task:<br />';
+$numbers = array(2, 5, 8, 1, 12, 33, 1, 5, 2, 4, 9, 44, 3);
+$sum = 0;
+$count = count($numbers);
+foreach ($numbers as $key => $number) {
+    if (($key % 2 !== 0) && ($number % 2 == 0)) {
+    	$sum = $sum + $number;
+    }
+}
+echo 'Сумма: ' . $sum . '<br />';
+echo 'Кол-во элементов: ' . $count . '<br />';
+$average = $sum / $count;
+echo 'Среднее: ' . $average . '<br />';
+*/
+
