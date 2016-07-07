@@ -23,15 +23,5 @@ echo '</pre>';
 	}
 } */
 
-for ($i = 0; $i <= 100; $i++) {
-	$a = $i + 1;
-	if ($random[$i] >= $random[$a]) {
-		$b = $random[$i];
-	} else {
-		$c = $random[$a];
-	}
-}
-echo $b;
-echo $c;
 
 // echo max($random);
