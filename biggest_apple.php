@@ -58,7 +58,16 @@ while ($i <= 100) {
 	$sum = $sum + $i;
 	$i++;
 }
-echo 'Сумма всех чисел: ' . $sum;
+echo 'Сумма всех чисел: ' . $sum . '<br />';
+
+$a = 5;
+$b = $a;
+$i = 1;
+while ($i < 7) {
+	$b = $b * $a;
+	$i++;
+}
+echo 'Число ' . $a . ' в ' . $i . '-й степени = ' . $b;
 
 /*
 $firstApple = $bucketOfApples[0];
