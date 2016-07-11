@@ -30,5 +30,5 @@ while ($i <= 100) {
 // print_r($randArr);
 // echo '</pre>';
 if (in_array(35, $randArr)) {
-	echo 35;
+	echo 'В массиве есть число ' . 35;
 }
