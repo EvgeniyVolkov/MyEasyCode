@@ -26,9 +26,24 @@ while ($i <= 100) {
     $randArr[] = rand(1, 100);
     $i++;
 }
-// echo '<pre>';
-// print_r($randArr);
-// echo '</pre>';
-if (in_array(35, $randArr)) {
-	echo 'В массиве есть число ' . 35;
+
+$randArr2 = array();
+$i = 1;
+while ($i <= 100) {
+    $randArr2[] = rand(1, 100);
+    $i++;
+}
+
+echo '<pre>';
+print_r($randArr);
+echo '</pre>';
+
+echo '<pre>';
+print_r($randArr2);
+echo '</pre>';
+
+$a = 35;
+if (in_array($a, $randArr)) {
+	if (!in_array($a, $randArr2))
+		echo 'Всё ОК!';
 }
