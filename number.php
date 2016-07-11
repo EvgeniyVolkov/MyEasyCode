@@ -8,6 +8,7 @@ while ($i <= 100) {
 }
 */
 
+/*
 $i = 1;
 $sum = 0;
 while ($i <= 100) {
@@ -15,9 +16,9 @@ while ($i <= 100) {
 	$i++;
 }
 echo 'Сумма всех чисел: ' . $sum . '<br />';
-
 $aver = $sum / ($i-1);
 echo 'Среднее арифметическое: ' . $aver . '<br />';
+*/
 
 /*
 $a = 5;
@@ -46,3 +47,24 @@ $average = $sum / $count;
 echo 'Среднее: ' . $average . '<br />';
 */
 
+/*
+$numbers = array(1, 2, 3, 4, 8);
+foreach ($numbers as $number) {
+	$twice = $number * 2;
+	$twiceArray[] = $twice;
+}
+echo '<pre>';
+print_r($twiceArray);
+echo '</pre>';
+*/
+
+/*
+$numbers = array(1, 2, 3, 4, 8);
+foreach ($numbers as $index => $number) {
+	$number *= 2;
+	$numbers[$index] = $number;
+}
+echo '<pre>';
+print_r($numbers);
+echo '</pre>';
+*/
