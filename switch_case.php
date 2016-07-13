@@ -22,13 +22,13 @@ switch ($age) {
     case ($age < 6):
         echo 'Хожу в садик';
         break;
-    case ($age >= 6 && $age) < 17:
+    case ($age >= 6 && $age < 17):
         echo 'Хожу в школу';
         break;
-    case ($age >= 17 && $age) < 22:
+    case ($age >= 17 && $age < 22):
         echo 'Хожу в универ';
         break;
-    case ($age >= 22 && $age) < 60:
+    case ($age >= 22 && $age < 60):
         echo 'Программирую!:)';
         break;
     default:
@@ -40,24 +40,26 @@ echo '<br /><br />';
 $array = array(1, 2, 3, 4, 9, 10, 12, 15, 18, 21, 24, 25, 28, 31, 64, 65, 100);
 
 foreach ($array as $index => $value) {
-    case ($value == 64):
-        break;
-    case ($value < 10):
-        $array[$index] = 99910;
-        echo $array[$index] . ', ';
-        break;
-    case ($value >= 10 && $value < 25):
-        $array[$index] = 9991025;
-        echo $array[$index] . ', ';
-        break;
-    case ($value > 25 && $value % 2 == 0):
-        $array[$index] = 9992;
-        echo $array[$index] . ', ';
-        break;
-    case ($value > 25 && $value % 2 > 0):
-        $array[$index] = 9991;
-        echo $array[$index] . ', ';
-        break;
+    switch ($value) {
+        case ($value == 64):
+            break 2;
+        case ($value < 10):
+            $array[$index] = 99910;
+            echo $array[$index] . ', ';
+            break;
+        case ($value >= 10 && $value < 25):
+            $array[$index] = 9991025;
+            echo $array[$index] . ', ';
+            break;
+        case ($value > 25 && $value % 2 == 0):
+            $array[$index] = 9992;
+            echo $array[$index] . ', ';
+            break;
+        // case ($value > 25 && $value % 2 > 0):
+        //     $array[$index] = 9991;
+        //     echo $array[$index] . ', ';
+        //     break;
+    }
 }
 
 echo '<br /><br />';
