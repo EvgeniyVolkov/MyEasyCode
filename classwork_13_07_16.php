@@ -4,18 +4,22 @@
 
 $array = array(1, 2, 3, 4, 5, 6, 100);
 
-foreach ($array as $value) {
+foreach ($array as $index => $value) {
 	if ($value < 10) {
-		echo 99910 . ', ';
+		$array[$index] = 99910;
+		echo $array[$index] . ', ';
 	}
 	elseif ($value >= 10 && $value < 25) {
-		echo 9991025 . ', ';
+		$array[$index] = 9991025;
+		echo $array[$index] . ', ';
 	}
 	elseif ($value > 25 && $value % 2 == 0) {
-		echo 9992 . ', ';
+		$array[$index] = 9992;
+		echo $array[$index] . ', ';
 	}
 	elseif ($value > 25 && $value % 2 > 0) {
-		echo 9991 . ', ';
+		$array[$index] = 9991;
+		echo $array[$index] . ', ';
 	}
 	elseif ($value == 64) {
 		break;
