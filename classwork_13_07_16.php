@@ -38,7 +38,7 @@ foreach ($array as $index => $value) {
 // диапазон 20-50: макс 45
 // диапазон 50-100: макс 86
 
-$numbers = array(1, 2, 9, 86, 24, 6, 45, 72);
+// $numbers = array(1, 2, 9, 86, 24, 6, 45, 72);
 
 // $newNumbers = array(
 // 	'1-10' => array(1, 2, 6, 9),
@@ -46,6 +46,7 @@ $numbers = array(1, 2, 9, 86, 24, 6, 45, 72);
 // 	'50-100' => array(72, 86)
 // )
 
+/*
 $newNumbers = array('1-10' => array(), '20-50' => array(), '50-100' => array());
 foreach ($numbers as $number) {
 	if ($number <= 10) {
@@ -62,3 +63,11 @@ foreach ($numbers as $number) {
 echo '<pre>';
 print_r($newNumbers);
 echo '</pre>';
+*/
+
+function sum($a = 20, $b = 17) {
+	$sum = $a + $b;
+	return $sum;
+}
+$sum = sum();
+echo $sum;
