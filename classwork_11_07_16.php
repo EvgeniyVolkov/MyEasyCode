@@ -1,14 +1,16 @@
 ﻿<?php
-/*$numbers = array();
+
+$numbers = array();
 for ($i = 1; $i <= 100; $i++) {
 	$numbers[] = $i;
-}*/
+}
 // print_r($numbers);
-/*for ($n = 4; $n < 100; $n++) {
-	echo $numbers[$n] . '<br />';
-	$n += 4;
-}*/
-/*foreach ($numbers as $number) {
+for ($n = 4; $n < 100; $n += 5) {
+	echo 'Index: ' . $n . ', number: ' . $numbers[$n] . '<br />';
+}
+
+/*
+foreach ($numbers as $number) {
 	if ($number == 10 || $number == 25) {
 		continue;
 	}
@@ -18,7 +20,8 @@ for ($i = 1; $i <= 100; $i++) {
 	else {
 		echo $number . '<br />';
 	}
-}*/
+}
+*/
 
 $randArr = array();
 $i = 1;
