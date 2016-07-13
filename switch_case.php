@@ -51,10 +51,10 @@ foreach ($array as $index => $value) {
             $array[$index] = 9991025;
             echo $array[$index] . ', ';
             break;
-        case ($value > 25 && $value % 2 == 0):
-            $array[$index] = 9992;
-            echo $array[$index] . ', ';
-            break;
+        // case ($value > 25 && $value % 2 == 0):
+        //     $array[$index] = 9992;
+        //     echo $array[$index] . ', ';
+        //     break;
         // case ($value > 25 && $value % 2 > 0):
         //     $array[$index] = 9991;
         //     echo $array[$index] . ', ';
