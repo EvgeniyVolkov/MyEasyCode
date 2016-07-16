@@ -1,5 +1,12 @@
 <?php
 
+// function sum($a = 20, $b = 17) {
+// 	$sum = $a + $b;
+// 	return $sum;
+// }
+// $sum = sum();
+// echo $sum;
+
 function getArrayWithRandomNumbers($numbersCount, $min = 1, $max = 10)
 {
     $array = array();

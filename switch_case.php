@@ -3,7 +3,7 @@
 /*
 $value = 6;
 switch ($value) {
-    case ($value > 4 && $value < 10): // if ($value == 2)
+    case ($value > 4 && $value < 10): // if ($value > 4 && $value < 10)
         echo 'value > 4 and < 8';
         break;
     case 3: // elseif ($value == 3)
@@ -37,11 +37,12 @@ switch ($age) {
 
 echo '<br /><br />';
 
-$array = array(1, 2, 3, 4, 9, 10, 12, 15, 18, 21, 24, 25, 28, 31, 64, 65, 100);
+$array = array(1, 10, 24, 25, 28, 31, 64, 65, 100);
 
 foreach ($array as $index => $value) {
     switch ($value) {
         case ($value == 64):
+            echo '$value = 64, ';
             break 2;
         case ($value < 10):
             $array[$index] = 99910;
@@ -51,30 +52,19 @@ foreach ($array as $index => $value) {
             $array[$index] = 9991025;
             echo $array[$index] . ', ';
             break;
-        // case ($value > 25 && $value % 2 == 0):
-        //     $array[$index] = 9992;
-        //     echo $array[$index] . ', ';
-        //     break;
-        // case ($value > 25 && $value % 2 > 0):
-        //     $array[$index] = 9991;
-        //     echo $array[$index] . ', ';
-        //     break;
+        case ($value > 25 && $value % 2 == 0):
+            $array[$index] = 9992;
+            echo $array[$index] . ', ';
+            break;
+        case ($value > 25 && $value % 2 > 0):
+            $array[$index] = 9991;
+            echo $array[$index] . ', ';
+            break;
     }
 }
 
-echo '<br /><br />';
+echo '<br />';
 
 echo '<pre>';
 print_r($array);
 echo '</pre>';
-
-
-
-
-
-
-
-
-
-
-
