@@ -110,3 +110,9 @@ foreach ($newNumbers as $diapason) {
 	}
 echo 'Макс. число из диапазона: ' . $biggestNumber . '<br />';
 }
+
+echo '<br />Решение 3:<br /><br />';
+
+echo 'Макс. число из диапазона 1-10: ' . max($newNumbers['1-10']) . '<br />';
+echo 'Макс. число из диапазона 20-50: ' . max($newNumbers['20-50']) . '<br />';
+echo 'Макс. число из диапазона 50-100: ' . max($newNumbers['50-100']) . '<br />';

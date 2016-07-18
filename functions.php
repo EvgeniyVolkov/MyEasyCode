@@ -33,9 +33,31 @@ function test()
 function test2()
 {
     $a = 40;
+    return $a;
 }
 
+echo '<br />';
 $a = 30; // глобальная область видимости
 test();
 test2();
+
+$d = test2();
+
 echo $a;
+
+echo '<br />';
+
+echo $d;
+
+echo '<br /><br />';
+
+$num = 10;
+function sum($num){
+	// global $num;
+	$num++;
+	echo $num;
+}
+
+echo $num . '<br />';
+sum($num);
+echo '<br />' . $num . '<br />';
