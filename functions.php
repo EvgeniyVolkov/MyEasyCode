@@ -92,3 +92,10 @@ foreach ($numbers as $key => $number) {
     }
 }
 echo 'Сумма всех четных чисел в массиве: ' . $sum . "<br />\r\n";
+
+$array = array(1, 5, 9, 6, 20 => 'apple', 'magic');
+$count = 0;
+foreach ($array as $value) {
+	$count++;
+}
+echo $count;
