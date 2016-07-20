@@ -4,7 +4,7 @@
 $value = 6;
 switch ($value) {
     case ($value > 4 && $value < 10): // if ($value > 4 && $value < 10)
-        echo 'value > 4 and < 8';
+        echo 'value > 4 and < 10';
         break;
     case 3: // elseif ($value == 3)
         echo 3;
