@@ -15,7 +15,8 @@ echo '</pre>';*/
 
 /*foreach ($randArray as $element) {
 	if ($element == 37) {
-		echo $element . '<br />';exit;
+		echo $element . '<br />';
+		break;
 	}
 }*/
 

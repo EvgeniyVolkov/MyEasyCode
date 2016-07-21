@@ -1,4 +1,18 @@
 ﻿<?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+/*
+$array = array(1, 5, 9, 6, 20 => 'apple', 'magic');
+$count = 0;
+foreach ($array as $value) {
+    $count++;
+}
+echo $count;
+*/
+
+/*
 function plus($a, $b) {
 	$plus = $a + $b;
 	return $plus;
@@ -30,3 +44,4 @@ function divide($a, $b) {
 }
 $result = divide(10, 0);
 echo $result . "<br /><br /> \r\n";
+*/
