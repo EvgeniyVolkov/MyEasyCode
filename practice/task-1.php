@@ -13,6 +13,7 @@ echo 'Написать функцию, которая принимает на в
 echo '<br /><br />';
 echo 'Решение:';
 
+/*
 function getElements($array, $boolean) {
 	if ($boolean == true) {
 		foreach ($array as $value) {
@@ -29,6 +30,23 @@ function getElements($array, $boolean) {
 		}
 	}
 	return $newNumbers;
+}
+*/
+
+function getElements($array, $boolean) {
+	foreach ($array as $value) {
+		if ($value % 2 == 0) {
+			$evenNumbers[] = $value;
+		} else {
+			$oddNumbers[] = $value;
+		}
+	}
+	if ($boolean == true) {
+		return $evenNumbers;
+	}
+	elseif ($boolean == false) {
+		return $oddNumbers;
+	}
 }
 
 $numbers = [1, 2, 3, 4];
