@@ -9,7 +9,7 @@ echo '1. Написать скрипт, который возводит числ
 // Решение 1:
 echo 'Решение 1:<br /><br />';
 
-function power($a, $c) {
+function power($a = 2, $c = 2) {
     $b = $a;
     $i = 1;
     while ($i < $c) {
@@ -24,7 +24,7 @@ echo $result . "<br /><br />\r\n";
 // Решение 2:
 echo 'Решение 2:<br /><br />';
 
-function power2($a, $d) {  
+function power2($a = 2, $d = 2) {  
     $pow = $a ** $d;
     return $pow;
 }
