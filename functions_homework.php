@@ -359,3 +359,44 @@ echo 'Решение 3:<br /><br />';
 echo 'Макс. число из диапазона 1-10: ' . max($newNumbers['1-10']) . '<br />';
 echo 'Макс. число из диапазона 20-50: ' . max($newNumbers['20-50']) . '<br />';
 echo 'Макс. число из диапазона 50-100: ' . max($newNumbers['50-100']) . '<br />';
+
+echo '<br />';
+
+echo 'Решение 4:<br /><br />';
+
+function getMax3($newNumbers) {
+    $biggestNumber = 0;
+    foreach ($newNumbers as $key => $diapason) {
+        foreach ($diapason as $currentNumber) {
+            if ($currentNumber > $biggestNumber) {
+                $biggestNumber = $currentNumber;
+            }
+        }
+        echo "Макс. число из диапазона $key: " . $biggestNumber . '<br />';
+    }
+}
+
+getMax3($newNumbers);
+
+echo '<br />';
+
+echo 'Решение 5:<br />';
+
+function getMax4($newNumbers) {
+    $biggestNumber = 0;
+    $resultArray = [];
+    foreach ($newNumbers as $key => $diapason) {
+        foreach ($diapason as $currentNumber) {
+            if ($currentNumber > $biggestNumber) {
+                $biggestNumber = $currentNumber;
+            }
+            $resultArray[$key] = $biggestNumber;
+        }
+    }
+    return $resultArray;
+}
+
+$result = getMax4($newNumbers);
+echo '<pre>';
+print_r($result);
+echo '</pre>';
