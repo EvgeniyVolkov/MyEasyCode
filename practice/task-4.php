@@ -28,6 +28,7 @@ echo 'Решение:';
 echo '<br />';
 
 function rollElements($array) {
+	$newArray = [];
 	foreach ($array as $key => $value) {
 		$newArray[$value] = $key;
 	}
