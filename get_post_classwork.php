@@ -42,6 +42,7 @@ while ($i < $n) {
 */
 ?>
 
+<!-- 
 <form action="" name="test-form" method="POST">
     Слово: <input type="text" name="word" /> <br />
     Кол-во повторений: 
@@ -59,14 +60,50 @@ while ($i < $n) {
     </select>
     <input type="submit" value="Start!">
 </form>
+ -->
 
 <?php
-
+/*
 $n = $_POST['repeat'];
 $i = 0;
 while ($i < $n) {
 	echo strrev($_POST['word']) . '<br />';
 	$i++;
+}
+*/
+?>
+
+<!-- Создать форму для конвертации валюты. Доступная валюта: USD, EUR, UAH.
+Форма должна содержать:
+1. Select с выбором валюты из которой конвертируем
+2. Select с выбором валюты в которую конвертируем 
+3. Сумму
+
+Курс для каждой из валют задается в массиве в php  файле -->
+
+<form action="" name="test-form" method="GET">
+    <!-- Ковертируем из: <br /> -->
+    Ковертируем в: <br />
+    <select name="valuta">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="UAH">UAH</option>
+    </select>
+    <input type="text" name="sum" /> <br />
+    <input type="submit" value="Convert!">
+</form>
+
+<?php
+
+$courses = ['USD' => 25, 'EUR' => 28, 'UAH' => 1];
+
+$valuta = $_GET['valuta'];
+$sum = $_GET['sum'];
+
+foreach ($courses as $key => $value) {
+	if ($valuta == $key) {
+		echo 'Результат: ' . $sum * $value;
+	}
 }
 
 ?>
