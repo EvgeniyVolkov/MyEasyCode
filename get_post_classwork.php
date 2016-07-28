@@ -1,32 +1,35 @@
-п»ї<!-- 1. РЎРѕР·РґР°С‚СЊ С„РѕСЂРјСѓ СЃ С‚Р°РєРёРјРё РїРѕР»СЏРјРё:
-РРјСЏ
-Р¤Р°РјРёР»РёСЏ
-РЇР·С‹Рє РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёСЏ, РєРѕС‚РѕСЂС‹Р№ СѓС‡Сѓ
-РЇР·С‹Рє, РєРѕС‚РѕСЂС‹Р№ С…РѕС‚РµР» Р±С‹ РІС‹СѓС‡РёС‚СЊ -->
+<?php
+header("Content-type: text/html; Charset=windows-1251");
+?>
+<!-- 1. Создать форму с такими полями:
+Имя
+Фамилия
+Язык программирования, который учу
+Язык, который хотел бы выучить -->
 
 <!--
 <form action="" name="test-form" method="POST">
-    РРјСЏ: <input type="text" name="name" /> <br />
-    Р¤Р°РјРёР»РёСЏ: <input type="text" name="lastname" /> <br />
-    РЇР·С‹Рє РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёСЏ, РєРѕС‚РѕСЂС‹Р№ СѓС‡Сѓ: <input type="text" name="lang1" /> <br />
-    РЇР·С‹Рє, РєРѕС‚РѕСЂС‹Р№ С…РѕС‚РµР» Р±С‹ РІС‹СѓС‡РёС‚СЊ: <input type="text" name="lang2" /> <br />
-    <input type="submit" value="Р–РјРё!">
+    Имя: <input type="text" name="name" /> <br />
+    Фамилия: <input type="text" name="lastname" /> <br />
+    Язык программирования, который учу: <input type="text" name="lang1" /> <br />
+    Язык, который хотел бы выучить: <input type="text" name="lang2" /> <br />
+    <input type="submit" value="Жми!">
 </form>
 -->
 
-<!-- 2.  РџСЂРёРЅСЏС‚СЊ РґР°РЅРЅС‹Рµ Рё РІС‹РІРµСЃС‚Рё СЃР»РµРґСѓСЋС‰РёР№ С‚РµРєСЃС‚ РЅР° СЃС‚СЂР°РЅРёС†Сѓ:
-РџСЂРёРІРµС‚!
-РњРµРЅСЏ Р·РѕРІСѓС‚ <РРјСЏ> <Р¤Р°РјРёР»РёСЏ>. РЇ РёР·СѓС‡Р°СЋ <РЇР·С‹Рє РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёСЏ>. РҐРѕС‚РµР» Р±С‹ РёР·СѓС‡Р°С‚СЊ <РЇР·С‹Рє РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёСЏ>. -->
+<!-- 2.  Принять данные и вывести следующий текст на страницу:
+Привет!
+Меня зовут <Имя> <Фамилия>. Я изучаю <Язык программирования>. Хотел бы изучать <Язык программирования>. -->
 
 <?php
-// echo "РџСЂРёРІРµС‚!<br />
-// РњРµРЅСЏ Р·РѕРІСѓС‚ " . $_POST['name'] . " " . $_POST['lastname'] . ". " . "РЇ РёР·СѓС‡Р°СЋ " . $_POST['lang1'] . ". РҐРѕС‚РµР» Р±С‹ РёР·СѓС‡Р°С‚СЊ " . $_POST['lang2'] . ".";
+// echo "Привет!<br />
+// Меня зовут " . $_POST['name'] . " " . $_POST['lastname'] . ". " . "Я изучаю " . $_POST['lang1'] . ". Хотел бы изучать " . $_POST['lang2'] . ".";
 ?>
 
 <!-- 
 <form action="" name="test-form" method="GET">
-    РЎР»РѕРІРѕ: <input type="text" name="word" /> <br />
-    РљРѕР»-РІРѕ РїРѕРІС‚РѕСЂРµРЅРёР№: <input type="text" name="repeat" /> <br />
+    Слово: <input type="text" name="word" /> <br />
+    Кол-во повторений: <input type="text" name="repeat" /> <br />
     <input type="submit" value="Start!">
 </form>
  -->
@@ -42,10 +45,9 @@ while ($i < $n) {
 */
 ?>
 
-<!-- 
 <form action="" name="test-form" method="POST">
-    РЎР»РѕРІРѕ: <input type="text" name="word" /> <br />
-    РљРѕР»-РІРѕ РїРѕРІС‚РѕСЂРµРЅРёР№: 
+    Слово: <input type="text" name="word" /> <br />
+    Кол-во повторений: 
     <select name="repeat">
         <option value="1">1</option>
         <option value="2">2</option>
@@ -60,67 +62,14 @@ while ($i < $n) {
     </select>
     <input type="submit" value="Start!">
 </form>
- -->
 
 <?php
-/*
+
 $n = $_POST['repeat'];
 $i = 0;
 while ($i < $n) {
 	echo strrev($_POST['word']) . '<br />';
 	$i++;
-}
-*/
-?>
-
-<!-- РЎРѕР·РґР°С‚СЊ С„РѕСЂРјСѓ РґР»СЏ РєРѕРЅРІРµСЂС‚Р°С†РёРё РІР°Р»СЋС‚С‹. Р”РѕСЃС‚СѓРїРЅР°СЏ РІР°Р»СЋС‚Р°: USD, EUR, UAH.
-Р¤РѕСЂРјР° РґРѕР»Р¶РЅР° СЃРѕРґРµСЂР¶Р°С‚СЊ:
-1. Select СЃ РІС‹Р±РѕСЂРѕРј РІР°Р»СЋС‚С‹ РёР· РєРѕС‚РѕСЂРѕР№ РєРѕРЅРІРµСЂС‚РёСЂСѓРµРј
-2. Select СЃ РІС‹Р±РѕСЂРѕРј РІР°Р»СЋС‚С‹ РІ РєРѕС‚РѕСЂСѓСЋ РєРѕРЅРІРµСЂС‚РёСЂСѓРµРј 
-3. РЎСѓРјРјСѓ
-
-РљСѓСЂСЃ РґР»СЏ РєР°Р¶РґРѕР№ РёР· РІР°Р»СЋС‚ Р·Р°РґР°РµС‚СЃСЏ РІ РјР°СЃСЃРёРІРµ РІ php  С„Р°Р№Р»Рµ -->
-
-<form action="" name="test-form" method="GET">
-    РљРѕРІРµСЂС‚РёСЂСѓРµРј РёР·: <br />
-    <select name="valuta_from">
-        <option value="USD">USD</option>
-        <option value="EUR">EUR</option>
-        <option value="UAH">UAH</option>
-    </select><br />
-    РљРѕРІРµСЂС‚РёСЂСѓРµРј РІ: <br />
-    <select name="valuta_to">
-        <option value="USD">USD</option>
-        <option value="EUR">EUR</option>
-        <option value="UAH">UAH</option>
-    </select><br />
-    РЎСѓРјРјР°:<br />
-    <input type="text" name="sum" /> <br /><br />
-    <input type="submit" value="Convert!">
-</form>
-
-<?php
-
-$courses = ['USD' => 25, 'EUR' => 28, 'UAH' => 1];
-
-$valuta_from = $_GET['valuta_from'];
-$valuta_to = $_GET['valuta_to'];
-$sum = $_GET['sum'];
-
-if ($valuta_from != $valuta_to) {
-	foreach ($courses as $valuta1 => $course1) {
-		if ($valuta_from == $valuta1) {
-			foreach ($courses as $valuta2 => $course2) {
-				if ($valuta_to == $valuta2) {
-					$result = $sum * $course1 / $course2;
-					echo $result;
-				}
-			}
-		}
-	}
-
-} else {
-	echo "Р’С‹Р±РµСЂРёС‚Рµ РІР°Р»СЋС‚Сѓ РґР»СЏ РєРѕРЅРІРµСЂС‚Р°С†РёРё!";
 }
 
 ?>
