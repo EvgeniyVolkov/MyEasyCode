@@ -33,12 +33,12 @@ $valuta_to = $_GET['valuta_to'];
 $sum = $_GET['sum'];
 
 if ($valuta_from != $valuta_to) {
-	foreach ($courses as $valuta1 => $course1) {
-		if ($valuta_from == $valuta1) {
-			foreach ($courses as $valuta2 => $course2) {
-				if ($valuta_to == $valuta2) {
-					$result = $sum * $course1 / $course2;
-					echo $result;
+	foreach ($courses as $valuta1 => $course1) { // USD
+		if ($valuta_from == $valuta1) { // USD
+			foreach ($courses as $valuta2 => $course2) { // UAH
+				if ($valuta_to == $valuta2) { // UAH
+					$result = $sum * $course1 / $course2; //
+					echo $sum . $valuta_from . ' = ' . $result . $valuta_to;
 				}
 			}
 		}
