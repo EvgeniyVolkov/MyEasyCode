@@ -1,3 +1,3 @@
 <?php
 
-echo $_COOKIES['cookieTest1'] . ' ' . $_COOKIES['cookieTest2'];
+echo $_COOKIE['cookieTest1'] . ' ' . $_COOKIE['cookieTest2'];
