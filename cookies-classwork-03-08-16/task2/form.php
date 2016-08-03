@@ -1,7 +1,15 @@
 <?php
 $login = $_GET['login'];
 $date = date('Y-m-d H:i:s');
-setcookie('lastVisitTime', $date, $time);
+setcookie('lastVisitTime', $date);
+$counter = 1;
+if (!isset($_COOKIE['counter'])) {
+	setcookie('counter', $counter, time()+60*60*24);
+} else {
+	$counter++;
+	setcookie('counter', $counter, time()+60*60*24);
+}
+
 if (isset($_COOKIE['login'])): ?>
 Привет, <?= $_COOKIE['login'] ?>!
 <br />
@@ -14,9 +22,9 @@ if (isset($_COOKIE['login'])): ?>
         Cookie's lifetime: <input type="text" name="cookiesLifeTime" />
         <input type="submit" value="Send" />
     </form>
-
-    Дата последнего посещения: <?= $_COOKIE['lastVisitTime'] ?>
-
 <?php endif; ?>
 
+Дата последнего посещения: <?= $_COOKIE['lastVisitTime'] ?> <br />
+
+Вы заходили на эту страницу <?= $_COOKIE['counter'] ?> раз <br />
 
