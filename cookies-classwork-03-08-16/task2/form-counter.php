@@ -6,7 +6,7 @@ $counter = 1;
 if (!isset($_COOKIE['counter'])) {
 	setcookie('counter', $counter, time()+60*60*24);
 } else {
-	$counter++;
+	$counter = $_COOKIE['counter'] + 1;
 	setcookie('counter', $counter, time()+60*60*24);
 }
 
