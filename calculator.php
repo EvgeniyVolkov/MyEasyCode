@@ -3,18 +3,11 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 ?>
-
-<!-- Калькулятор
-Форма:
-1 поле для цифры
-2 поле для цифры
-Select операция (+ - /  *) -->
-
 <form action="" name="calculator" method="GET">
     Число 1: <br />
-    <input type="text" name="num1" value="<?php echo getValue($num1) ?>" /><br />
+    <input type="text" name="num1" value="<?php echo getValue('num1', $_GET) ?>" /><br />
     Число 2: <br />
-    <input type="text" name="num2" value="<?= getValue($num2) ?>" /><br />
+    <input type="text" name="num2" value="<?= getValue('num2', $_GET) ?>" /><br />
 	Действие: <br />
     <select name="operations">
         <option value="+">Прибавить</option>
@@ -24,50 +17,48 @@ Select операция (+ - /  *) -->
     </select><br /><br />
     <input type="submit" name="submit" value="Count!">
 </form>
-
 <?php
-
 $num1 = isset($_GET['num1']) ? $_GET['num1'] : '' ;
 $num2 = isset($_GET['num2']) ? $_GET['num2'] : '' ;
 $operation = isset($_GET['operations']) ? $_GET['operations'] : '+' ;
-
 if (isset($_GET['submit'])) {
-	if (isset($num1) && isset($num2)) {
-		if ($operation == '+') {
-			echo $num1 + $num2;
-		} elseif ($operation == '-') {
-			echo $num1 - $num2;
-		} elseif ($operation == '*') {
-			echo $num1 * $num2;
-		} elseif ($operation == '/') {
-			if ($num2 == 0) {
-				echo 'На ноль делить нельзя!';
-			} else {
-				echo $num1 / $num2;
+	if ($num1 != '' && $num2 != '') {
+		if (is_numeric($num1) && is_numeric($num2)) {
+			if ($operation == '+') {
+				echo $num1 + $num2;
+			} elseif ($operation == '-') {
+				echo $num1 - $num2;
+			} elseif ($operation == '*') {
+				echo $num1 * $num2;
+			} elseif ($operation == '/') {
+				if ($num2 == 0) {
+					echo 'На ноль делить нельзя!';
+				} else {
+					echo $num1 / $num2;
+				}
 			}
+		} else {
+			echo 'Введено не цифровое значение!';
 		}
 	} else {
-		echo 'Задайте оба числа!';
+		echo 'Введите оба значения!';
 	}
 } else {
-	echo 'Привет!';
+	echo 'Добро пожаловать!';
 }
-
-function getValue($var, $defaultValue = '') {
+function getValue($key, $array, $defaultValue = '') {
     $result = $defaultValue;
-    if (isset($var)) {
-        $result = $var;
+    if (isset($array[$key])) {
+        $result = $array[$key];
     }
 
     return $result;
 }
 
-// } else {
-// 	if (count($_GET) === 0) {
-// 		echo 'Привет!';
-// 	} else {
-// 		echo 'Задайте оба числа!';
-// 	}
-// }
-
+echo '<br /><br />';
+echo $num1 . '<br />';
+echo $num2 . '<br />';
+echo '<pre>';
+print_r($_GET);
+echo '</pre>';
 ?>
