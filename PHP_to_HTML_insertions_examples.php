@@ -20,3 +20,22 @@ for($i = 0; $i < $_POST['repeat']; $i++){
 <?php } else { ?>
     <p style="color: red;">False</p>
 <?php } ?>
+
+<!-- //////////////////// -->
+
+<?php if (isset($_COOKIE['login'])): ?>
+    Привет, <?= $_COOKIE['login'] ?>!
+    <br />
+    Дата последнего логина: <?= $_COOKIE['lastLoginTime'] ?>
+<?php else: ?>
+    <form action="cookie_handler.php">
+        Login: <input type="text" name="login" />
+        <input type="submit" value="Send" />
+    </form>
+<?php endif; ?>
+
+<!-- //////////////////// -->
+
+<?php for ($i = 0; $i < 20; $i++): ?>
+    Hello, world! <br />
+<?php endfor; ?>
