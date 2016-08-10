@@ -7,4 +7,4 @@ setcookie('login', $login, $time);
 setcookie('lastLoginTime', $date, $time);
 ?>
 
-<a href="form.php">Вернуться назад</a>
+<a href="form-counter.php">Вернуться назад</a>
