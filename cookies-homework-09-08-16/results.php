@@ -39,16 +39,26 @@ function deleteCookie($key, $value, $time = -1) {
 	}
 }
 
+function getCookie($key) {
+	if (isset($_COOKIE[$key])) {
+		echo 'Existing cookie: ' . $key . ' => ' . $_COOKIE[$key];
+	} else {
+		echo 'Cookie doesn\'t exist';
+	}
+}
+
 $key = 'savedCookie';
 $newKey = 'updatedCookie';
 $value = '';
 
 if (isset($_GET['saveCookie'])) {
-	saveCookie($key, $_GET[$key], 20);
+	saveCookie($key, $_GET[$key], 120);
 } elseif (isset($_GET['updateCookie'])) {
 	updateCookie($key, $_GET[$newKey]);
 } elseif (isset($_GET['deleteCookie'])) {
 	deleteCookie($key, $value, -2);
+} elseif (isset($_GET['getCookie'])) {
+	getCookie($key);
 }
 
 ?>
