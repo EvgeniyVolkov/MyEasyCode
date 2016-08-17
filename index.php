@@ -12,6 +12,12 @@ echo '<pre>';
 print_r($_COOKIE);
 echo '</pre>';
 
+$arr = ['apple', '', 'orange'];
+
+echo '<pre>';
+print_r($arr);
+echo '</pre>';
+
 // echo ((true ? 'true' : false) ? 't' : 'f');
 ?>
 
