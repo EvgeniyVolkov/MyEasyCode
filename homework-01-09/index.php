@@ -12,8 +12,7 @@ $query = "SELECT name FROM author;";
 $result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link)); 
 if($result)
 {
-    echo "Выполнение запроса прошло успешно . <br />";
-    print_r(array get_object_vars (object $result));
+    echo "Выполнение запроса прошло успешно";
 }
      
 // закрываем подключение
