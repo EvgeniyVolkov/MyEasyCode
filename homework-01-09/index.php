@@ -2,7 +2,7 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-
+/*
 require_once 'connection.php'; // подключаем скрипт
  
 // подключаемся к серверу
@@ -17,4 +17,23 @@ if($result)
      
 // закрываем подключение
 mysqli_close($link);
+*/
+
+// Код Богдана:
+
+$connectionObject = mysqli_connect("localhost", "root", "28fKq179tZm50", "evgeniy"); // создаем соединение с базой данных
+$resource = mysqli_query($connectionObject, "SELECT * FROM author"); // выполянем запрос к базе, указывая при этом какое соединение использовать
+
+$rows = array();
+while (true) {
+    $row = mysqli_fetch_assoc($resource);
+    if ($row === null) {
+        break;
+    }
+
+    $rows[] = $row;
+}
+
+print_r($rows);
+
 ?>
