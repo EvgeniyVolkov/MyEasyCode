@@ -24,9 +24,9 @@ while (true) {
     $rows[] = $row;
 }
 
-echo '<pre>';
-print_r($rows);
-echo '</pre>';
+// echo '<pre>';
+// print_r($rows);
+// echo '</pre>';
 ?>
 
 <table style="border: #000 1px solid">
