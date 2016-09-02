@@ -9,7 +9,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$connectionObject = mysqli_connect("localhost", "root", "28fKq179tZm50", "evgeniy"); // 
+$connectionObject = mysqli_connect("localhost", "root", "28fKq179tZm50", "evgeniy");
 
 if(isset($_POST['name']) && $_POST['name'] != '' && $_POST['age'] != '') {
 	$name = $_POST['name'];
