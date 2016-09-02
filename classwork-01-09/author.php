@@ -3,7 +3,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$connectionObject = mysqli_connect("localhost", "root", "28fKq179tZm50", "evgeniy");
+$connectionObject = mysqli_connect("91.223.223.160", "root", "28fKq179tZm50", "evgeniy");
 
 if(isset($_POST['authorName']) && $_POST['authorName'] != '') {
 
