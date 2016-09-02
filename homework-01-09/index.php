@@ -21,7 +21,7 @@ mysqli_close($link);
 
 // Код Богдана:
 
-$connectionObject = mysqli_connect("localhost", "root", "28fKq179tZm50", "evgeniy"); // создаем соединение с базой данных
+$connectionObject = mysqli_connect("localhost", "root", "", "evgeniy"); // создаем соединение с базой данных (пароль: 28fKq179tZm50)
 $resource = mysqli_query($connectionObject, "SELECT * FROM author"); // выполянем запрос к базе, указывая при этом какое соединение использовать
 
 $rows = array();
@@ -34,6 +34,8 @@ while (true) {
     $rows[] = $row;
 }
 
+echo '<pre>';
 print_r($rows);
+echo '</pre>';
 
 ?>
