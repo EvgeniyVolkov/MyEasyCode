@@ -4,7 +4,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 ?>
 
-<form action="" name="authors" method='POST'>
+<form action="addtodb.php" name="authors" method='POST'>
     Имя автора: <input type="text" name="name">
     Возраст: <input type="text" name="age">
     <input type="submit" value="Save">
@@ -12,17 +12,6 @@ error_reporting(E_ALL);
 
 <?php
 $connectionObject = mysqli_connect("localhost", "root", "28fKq179tZm50", "evgeniy");
-
-if(isset($_POST['name']) && $_POST['name'] != '' && $_POST['age'] != '') {
-	$name = $_POST['name'];
-	// $name = mysql_real_escape_string($name);
-	$age = $_POST['age'];
-	$newAuthor = mysqli_query($connectionObject, "INSERT INTO `author` (name, age) VALUES ('$name', '$age');"
-	);
- 	if($newAuthor) {
- 		echo 'В БД добавлен автор: ' . $name . ', возраст: ' . $age;
- 	}
-}
 
 $resource = mysqli_query($connectionObject, 
 	"SELECT

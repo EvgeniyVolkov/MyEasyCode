@@ -112,6 +112,20 @@ SELECT country.name FROM city INNER JOIN country ON city.country_id = country.id
 SELECT country.name, sum(city.population) FROM city INNER JOIN country ON city.country_id = country.id 
 GROUP BY country.name ORDER BY sum(city.population) DESC;
 
+-- Правильный порядок использования операторов:
+SELECT 
+    COUNT(*) as cnt,
+    region
+FROM `city` 
+WHERE 1 -- WHERE используется на этапе выборки (не может работать с динамическими полями, которые считают 
+-- результат (MAX, count и т.п.), т.к. еще нет их результата на момент фильтрации через WHERE) (как-то так)
+GROUP BY region
+HAVING cnt >= 3 -- HAVING используется если поля динамические (работает по уже готовым полям - например, 
+-- с MAX(), count() и т.п., т.е. после того, как запрос уже выполнен, по сути берет готовую выборку и еще 
+-- раз фильтрует ее) (как-то так)
+ORDER BY region
+LIMIT 0, 25
+
 /* Д/з на 29.08.16:
 1. создать таблицу author с такими полями: id(int), name(varchar), age (int)
 2. создать таблицу book с такими полями: id(int), title(varchar), page_count(int)
@@ -226,3 +240,5 @@ SELECT
 FROM `author` AS `a`
 LEFT JOIN `author_book` AS `ab`
   ON `a`.`id` = `ab`.`author_id`;
+
+CREATE TABLE test (id INTEGER(11) AUTO_INCREMENT PRIMARY KEY, name VARCHAR(50) NOT NULL) ENGINE=InnoDB CHARSET=utf8;
