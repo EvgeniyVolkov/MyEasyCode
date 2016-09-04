@@ -56,6 +56,12 @@ while (true) {
     	</td>
     	<td><?= $author['age'] ?></td>
     	<td><?= $author['booksQuantity'] ?></td>
+        <td>
+        <form action="deletefromdb.php" name="authorPage" method='POST'>
+            <input type="hidden" name="idToDelete" value="<?= $author['id'] ?>">
+            <input type="submit" name="delete" value="Delete from DB">
+        </form>
+        </td>
     </tr>
 
 <?php endforeach; ?>
