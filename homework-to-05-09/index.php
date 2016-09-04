@@ -14,13 +14,12 @@ error_reporting(E_ALL);
 $connectionObject = mysqli_connect("localhost", "root", "28fKq179tZm50", "evgeniy");
 
 $resource = mysqli_query($connectionObject, 
-	"SELECT
-   `a`.`id`, `a`.`name`, `a`.`age`, count(*) AS `booksQuantity`
+"SELECT `a`.`id`, `a`.`name`, `a`.`age`, count(`ab`.`author_id`) AS `booksQuantity`
 FROM `author` AS `a`
 LEFT JOIN `author_book` AS `ab`
-  ON `a`.`id` = `ab`.`author_id`
-  GROUP BY `a`.`id`, `a`.`name`, `a`.`age`;"
- );
+ON `a`.`id` = `ab`.`author_id`
+GROUP BY `a`.`id`;"
+);
 
 $rows = array();
 while (true) {

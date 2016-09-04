@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14ede1ad-db21-4dd5-a424-aa3eea7d2f8e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homework-to-05-09/index.php" afterPath="$PROJECT_DIR$/homework-to-05-09/index.php" />
     </list>
     <ignored path="MyEasyCode.iws" />
@@ -183,12 +182,12 @@
       <workItem from="1472718329539" duration="7171000" />
       <workItem from="1472812272500" duration="13357000" />
       <workItem from="1472918394677" duration="1707000" />
-      <workItem from="1472983797981" duration="6030000" />
+      <workItem from="1472983797981" duration="7798000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42368000" />
+    <option name="totallyTimeSpent" value="44136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
