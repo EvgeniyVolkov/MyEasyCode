@@ -31,9 +31,9 @@ if(isset($_GET['id']) && $_GET['id'] != '') {
     }
 
 	echo 'Перечень книг автора ' . $rows[0]['authorName'];
-    echo '<pre>';
-    print_r($rows);
-    echo '</pre>';
+    // echo '<pre>';
+    // print_r($rows);
+    // echo '</pre>';
     ?>
 
     <table>

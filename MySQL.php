@@ -40,6 +40,9 @@ SELECT name FROM city WHERE population > 1000000;
 
 SELECT * FROM users WHERE fname LIKE 'Ge%'; -- Выбирает все записи из таблицы users, где значение поля fname начинается с Ge.
 
+SELECT * FROM books WHERE price < 200 AND title LIKE '%PHP%'; -- % Соответствует любому количеству символов, даже нулевых
+-- _ Соответствует ровно одному символу
+
 DESC city; /* Посмотреть содержимое таблицы с типами полей (структуру таблицы) */
 
 SHOW CREATE TABLE `city`;
@@ -60,6 +63,8 @@ ALTER TABLE `city` ADD COLUMN `region` varchar(10) NOT NULL AFTER `name`; /* Д�
 ALTER TABLE `city` MODIFY `name` varchar(200) NOT NULL;
 
 ALTER TABLE `city` CHANGE `name` `name2` varchar(200) NOT NULL;
+
+TRUNCATE TABLE `city`; -- по идее удаление всех записей таблицы
 
 DROP TABLE city; -- удалить таблицу city
 
@@ -149,8 +154,8 @@ CREATE TABLE author_book (
 ) ENGINE=InnoDB CHARSET=utf8;
 
 INSERT INTO author (name, age) VALUES ('Sergey Zhadan', 42), ('Lina Kostenko', 86),
- ('Joanne Rowling', 51), ('Paulo Coelho', 69), ('Robin Sharma', 51), ('Haruki
-  Murakami', 67), ('Gregory Roberts', 64), ('Andrey Polyakov', 48), ('Igor Sid', 53),
+ ('Joanne Rowling', 51), ('Paulo Coelho', 69), ('Robin Sharma', 51), ('Haruki Murakami', 
+  67), ('Gregory Roberts', 64), ('Andrey Polyakov', 48), ('Igor Sid', 53),
  ('Richard Bach', 80);
 
 INSERT INTO book (title, page_count) VALUES ('Shantaram', 864), ('Norwegian Wood', 384), 
@@ -167,9 +172,9 @@ SELECT
    `b`.`title`
 FROM `author` AS `a`
 INNER JOIN `author_book` AS `ab`
-  ON `a`.`id` = `ab`.`author_id`
+ON `a`.`id` = `ab`.`author_id`
 INNER JOIN `book` AS `b`
-  ON `ab`.`book_id` = `b`.`id`;
+ON `ab`.`book_id` = `b`.`id`;
 
 /* 1. возраст между 50  и 60 годами
 2. кол-во страниц между 200 и 300 */
@@ -179,10 +184,10 @@ SELECT
    `b`.`title`
 FROM `author` AS `a`
 INNER JOIN `author_book` AS `ab`
-  ON `a`.`id` = `ab`.`author_id`
+ON `a`.`id` = `ab`.`author_id`
 INNER JOIN `book` AS `b`
-  ON `ab`.`book_id` = `b`.`id`
- WHERE (`a`.`age` > 50 AND `a`.`age` < 60) AND (`b`.`page_count` > 200 AND `b`.`page_count` < 300);
+ON `ab`.`book_id` = `b`.`id`
+WHERE (`a`.`age` > 50 AND `a`.`age` < 60) AND (`b`.`page_count` > 200 AND `b`.`page_count` < 300);
 
 /* Условие через BETWEEN: */
 
@@ -191,10 +196,10 @@ SELECT
    `b`.`title`
 FROM `author` AS `a`
 INNER JOIN `author_book` AS `ab`
-  ON `a`.`id` = `ab`.`author_id`
+ON `a`.`id` = `ab`.`author_id`
 INNER JOIN `book` AS `b`
-  ON `ab`.`book_id` = `b`.`id`
- WHERE (`a`.`age` BETWEEN 50 AND 60) AND (`b`.`page_count` BETWEEN 200 AND 300);
+ON `ab`.`book_id` = `b`.`id`
+WHERE (`a`.`age` BETWEEN 50 AND 60) AND (`b`.`page_count` BETWEEN 200 AND 300);
 
 /* Вывести кол-во книг каждого автора: */
 
@@ -203,8 +208,8 @@ SELECT
    count(*)
 FROM `author` AS `a`
 INNER JOIN `author_book` AS `ab`
-  ON `a`.`id` = `ab`.`author_id`
- GROUP BY `a`.`name`;
+ON `a`.`id` = `ab`.`author_id`
+GROUP BY `a`.`name`;
 
 /* Средний возраст всех авторов: */
 
@@ -217,7 +222,7 @@ SELECT
    count(*)
 FROM `book` AS `b`
 INNER JOIN `author_book` AS `ab`
-  ON `b`.`id` = `ab`.`book_id`
+ON `b`.`id` = `ab`.`book_id`
 GROUP BY `b`.`title`;
 
 /* Книга, у которой больше всего авторов: */
@@ -227,7 +232,7 @@ SELECT
    MAX(?)
 FROM `book` AS `b`
 INNER JOIN `author_book` AS `ab`
-  ON `b`.`id` = `ab`.`book_id`
+ON `b`.`id` = `ab`.`book_id`
 GROUP BY `b`.`title`;
 
 INSERT INTO `author` (`name`, `age`) VALUES ('Boris Akunin', 60);
@@ -239,6 +244,8 @@ SELECT
    `ab`.`book_id`
 FROM `author` AS `a`
 LEFT JOIN `author_book` AS `ab`
-  ON `a`.`id` = `ab`.`author_id`;
+ON `a`.`id` = `ab`.`author_id`;
 
 CREATE TABLE test (id INTEGER(11) AUTO_INCREMENT PRIMARY KEY, name VARCHAR(50) NOT NULL) ENGINE=InnoDB CHARSET=utf8;
+
+

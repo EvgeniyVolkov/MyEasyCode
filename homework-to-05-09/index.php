@@ -12,6 +12,7 @@ error_reporting(E_ALL);
 
 <?php
 $connectionObject = mysqli_connect("localhost", "root", "28fKq179tZm50", "evgeniy");
+if ( !$connectionObject ) die ("Невозможно подключение к MySQL");
 
 $resource = mysqli_query($connectionObject, 
 "SELECT `a`.`id`, `a`.`name`, `a`.`age`, count(`ab`.`author_id`) AS `booksQuantity`

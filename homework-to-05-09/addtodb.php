@@ -7,10 +7,11 @@ header('location: index.php');
 $connectionObject = mysqli_connect("localhost", "root", "28fKq179tZm50", "evgeniy");
 
 if(isset($_POST['name']) && $_POST['name'] != '' && $_POST['age'] != '') {
-	$name = $_POST['name'];
+	$name = trim($_POST['name']);
 	// $name = mysql_real_escape_string($name);
-	$age = $_POST['age'];
-	$newAuthor = mysqli_query($connectionObject, "INSERT INTO `author` (name, age) VALUES ('$name', '$age');"
+	$age = trim($_POST['age']);
+	$newAuthor = mysqli_query($connectionObject, 
+		"INSERT INTO `author` (name, age) VALUES ('$name', '$age');"
 	);
  	// if($newAuthor) {
  	//	echo 'В БД добавлен автор: ' . $name . ', возраст: ' . $age;
