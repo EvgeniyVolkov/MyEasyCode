@@ -9,10 +9,10 @@ $connectionObject = getDbConnection();
 
 if(isset($_GET['id'])) {
 
-    $authorName = $_GET['id'];
-    echo 'Author: ' . $authorName;
+    $authorID = $_GET['id'];
+    echo 'Author: ' . $authorID;
 
-    $rows = getAuthorsBooks($authorName);
+    $rows = getAuthorsBooks($authorID);
 
     ?>
 

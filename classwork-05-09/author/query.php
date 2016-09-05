@@ -20,7 +20,7 @@ function getAuthorsWithBookCount() {
     return fetchAll($sql);
 }
 
-function getAuthorsBooks($authorName) {
+function getAuthorsBooks($authorID) {
     $sql = "
         SELECT
         `a`.`id`, 
@@ -32,7 +32,7 @@ function getAuthorsBooks($authorName) {
         ON `a`.`id` = `ab`.`author_id`
         LEFT JOIN `book` AS `b` 
         ON `b`.`id` = `ab`.`book_id`
-        WHERE `a`.`name` = '{$authorName}';";
+        WHERE `a`.`name` = '{$authorID}';";
 
     return fetchAll($sql);
 }
