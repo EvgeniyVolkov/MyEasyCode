@@ -4,10 +4,7 @@
     <list default="true" id="14ede1ad-db21-4dd5-a424-aa3eea7d2f8e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MySQL.php" afterPath="$PROJECT_DIR$/MySQL.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homework-to-05-09/Alex/authorbooks.php" afterPath="$PROJECT_DIR$/homework-to-05-09/Alex/authorbooks.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homework-to-05-09/Alex/index.php" afterPath="$PROJECT_DIR$/homework-to-05-09/Alex/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homework-to-05-09/addtodb.php" afterPath="$PROJECT_DIR$/homework-to-05-09/addtodb.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homework-to-05-09/index.php" afterPath="$PROJECT_DIR$/homework-to-05-09/index.php" />
     </list>
     <ignored path="MyEasyCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -188,12 +185,12 @@
       <workItem from="1472812272500" duration="13357000" />
       <workItem from="1472918394677" duration="1707000" />
       <workItem from="1472983797981" duration="8396000" />
-      <workItem from="1473057694019" duration="841000" />
+      <workItem from="1473057694019" duration="1448000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45575000" />
+    <option name="totallyTimeSpent" value="46182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />

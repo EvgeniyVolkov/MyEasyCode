@@ -64,13 +64,17 @@ ALTER TABLE `city` MODIFY `name` varchar(200) NOT NULL;
 
 ALTER TABLE `city` CHANGE `name` `name2` varchar(200) NOT NULL;
 
+ALTER TABLE tab SET AUTO_INCREMENT=1; -- для сброса автоинкреметного поля в начальное значение уже существующей таблицы с данными 
+
 TRUNCATE TABLE `city`; -- по идее удаление всех записей таблицы
 
 DROP TABLE city; -- удалить таблицу city
 
-CREATE TABLE `city1` LIKE `city`; /* Создать копию таблицы city (только каркас, наверное) */
+CREATE TABLE `city1` LIKE `city`; /* Создать копию таблицы city (только структура, без данных) */
 
 INSERT INTO `city1` SELECT * FROM `city`; /* Наполнить таблицу city1 содержимым таблицы city */
+
+CREATE TABLE `NewTab` SELECT * FROM `OldTab`; -- Копирование таблицы (включая данные)
 
 SELECT * FROM `city` ORDER BY cities_name ASC; -- по возрастанию
 
