@@ -168,7 +168,7 @@ INSERT INTO book (title, page_count) VALUES ('Shantaram', 864), ('Norwegian Wood
 ('Jonathan Livingston Seagull', 176);
 
 INSERT INTO author_book (author_id, book_id) VALUES (1, 6), (2, 7), (3, 4), 
-(4, 3), (5, 5), (5, 8), (6, 2), (7, 1), (8, 9), (9, 6), (10, 6);
+(4, 3), (5, 5), (5, 8), (6, 2), (7, 1), (8, 6), (9, 6), (10, 9);
 
 /* Склеить автора и книгу: */
 SELECT 

@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14ede1ad-db21-4dd5-a424-aa3eea7d2f8e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MySQL.php" afterPath="$PROJECT_DIR$/MySQL.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homework-to-05-09/addtodb.php" afterPath="$PROJECT_DIR$/homework-to-05-09/addtodb.php" />
-    </list>
+    <list default="true" id="14ede1ad-db21-4dd5-a424-aa3eea7d2f8e" name="Default" comment="" />
     <ignored path="MyEasyCode.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -185,15 +181,15 @@
       <workItem from="1472812272500" duration="13357000" />
       <workItem from="1472918394677" duration="1707000" />
       <workItem from="1472983797981" duration="8396000" />
-      <workItem from="1473057694019" duration="1448000" />
+      <workItem from="1473057694019" duration="2045000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46182000" />
+    <option name="totallyTimeSpent" value="46779000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24357034" sideWeight="0.4907162" order="2" side_tool="false" content_ui="combo" x="24" y="126" width="261" height="557" />
