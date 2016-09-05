@@ -20,7 +20,7 @@ function getAuthorsWithBookCount() {
     return fetchAll($sql);
 }
 
-function getAuthorsWithHisBooks() {
+function getAuthorsBooks($authorName) {
     $sql = "
         SELECT
         `a`.`id`, 
