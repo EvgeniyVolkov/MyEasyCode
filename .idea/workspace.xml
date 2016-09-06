@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14ede1ad-db21-4dd5-a424-aa3eea7d2f8e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classwork-05-09/author/author.php" afterPath="$PROJECT_DIR$/classwork-05-09/author/author.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classwork-05-09/author/query.php" afterPath="$PROJECT_DIR$/classwork-05-09/author/query.php" />
-    </list>
+    <list default="true" id="14ede1ad-db21-4dd5-a424-aa3eea7d2f8e" name="Default" comment="" />
     <ignored path="MyEasyCode.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -186,12 +182,12 @@
       <workItem from="1472918394677" duration="1707000" />
       <workItem from="1472983797981" duration="8396000" />
       <workItem from="1473057694019" duration="5030000" />
-      <workItem from="1473155272492" duration="206000" />
+      <workItem from="1473155272492" duration="440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49970000" />
+    <option name="totallyTimeSpent" value="50204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
