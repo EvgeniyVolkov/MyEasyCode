@@ -10,7 +10,7 @@ $connectionObject = getDbConnection();
 if(isset($_GET['id'])) {
 
     $authorID = $_GET['id'];
-    echo 'Author: ' . $authorID;
+    echo 'Author: ' . $author['name'];
 
     $rows = getAuthorsBooks($authorID);
 
@@ -23,7 +23,7 @@ if(isset($_GET['id'])) {
 
         <?php foreach($rows as $index => $author): ?>
             <tr>
-                <td><?= $author['name']; ?></td>
+                <td><?= $author['title']; ?></td>
             </tr>
         <?php endforeach; ?>
 
