@@ -1,3 +1,12 @@
+<style type="text/css">
+    TABLE {
+        border-collapse: collapse;
+    }
+    TD {
+        padding: 3px;
+        border: 1px solid black;
+    }
+</style>
 <?php
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -10,12 +19,13 @@ require_once 'forms/addnewauthor.php';
 $rows = getAuthorsWithBooksQuantity();
 ?>
 
-<table style="border: #000 1px solid">
+<table style="border: 1px solid black;">
     <tr>
         <td>ID</td>
         <td>Name</td>
         <td>Age</td>
         <td>Books quantity</td>
+        <td>&nbsp;</td>
     </tr>
     
 <?php foreach($rows as $index => $author): ?>
