@@ -35,3 +35,9 @@ function deleteFromDb($idToDelete) {
 	$connectionObject = getDbConnection();
 	mysqli_query($connectionObject, $sql);
 }
+
+function addNewAuthor($name, $age) {
+    $sql = "INSERT INTO `author` (name, age) VALUES ('$name', '$age');";
+    $connectionObject = getDbConnection();
+    mysqli_query($connectionObject, $sql);
+}
