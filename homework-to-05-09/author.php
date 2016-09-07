@@ -9,14 +9,15 @@ if(isset($_POST['authorName']) && $_POST['authorName'] != '') {
 
     $authorName = $_POST['authorName'];
     echo 'Author: ' . $authorName;
-
+    $authorName = addslashes($authorName);
+    // $authorName = mysql_real_escape_string($authorName);
     $resource = mysqli_query($connectionObject, 
         "SELECT 
         `a`.`id`, `a`.`name`, `a`.`age`, `b`.`title`
         FROM `author` AS `a`
         LEFT JOIN `author_book` AS `ab` ON `a`.`id` = `ab`.`author_id`
         LEFT JOIN `book` AS `b` ON `b`.`id` = `ab`.`book_id`
-        WHERE `a`.`name` = '{$authorName}';"
+        WHERE `a`.`name` = '".$authorName."';"
         );
 
     $rows = array();
