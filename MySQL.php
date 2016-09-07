@@ -251,5 +251,3 @@ LEFT JOIN `author_book` AS `ab`
 ON `a`.`id` = `ab`.`author_id`;
 
 CREATE TABLE test (id INTEGER(11) AUTO_INCREMENT PRIMARY KEY, name VARCHAR(50) NOT NULL) ENGINE=InnoDB CHARSET=utf8;
-
-

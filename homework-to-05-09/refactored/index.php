@@ -1,6 +1,7 @@
 <style type="text/css">
     TABLE {
         border-collapse: collapse;
+        border: 2px solid white;
     }
     TD {
         padding: 3px;
@@ -19,7 +20,7 @@ require_once 'forms/addnewauthor.php';
 $rows = getAuthorsWithBooksQuantity();
 ?>
 
-<table style="border: 1px solid black;">
+<table>
     <tr>
         <td>ID</td>
         <td>Name</td>
