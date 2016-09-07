@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14ede1ad-db21-4dd5-a424-aa3eea7d2f8e" name="Default" comment="" />
+    <list default="true" id="14ede1ad-db21-4dd5-a424-aa3eea7d2f8e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classwork-07-09/index.php" afterPath="$PROJECT_DIR$/classwork-07-09/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homework-to-05-09/refactored/deletefromdb.php" afterPath="$PROJECT_DIR$/homework-to-05-09/refactored/deletefromdb.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homework-to-05-09/refactored/query.php" afterPath="$PROJECT_DIR$/homework-to-05-09/refactored/query.php" />
+    </list>
     <ignored path="MyEasyCode.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -38,24 +43,9 @@
       <file leaf-file-name="db.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homework-to-05-09/refactored/db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-310">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="query.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework-to-05-09/refactored/query.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-              <folding>
-                <marker date="1473243270803" expanded="true" signature="84:289" ph="SELECT `a`.`... author" />
-                <marker date="1473243270803" expanded="true" signature="373:579" ph="SELECT `ab`.... author_book" />
-                <marker date="1473243270803" expanded="true" signature="660:694" ph="DELETE FROM " />
-                <marker date="1473243270803" expanded="true" signature="841:898" ph="INSERT INTO `author`... " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -70,11 +60,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classwork-07-09/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            <state relative-caret-position="252">
+              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+              <folding>
+                <marker date="1473269598964" expanded="true" signature="579:581" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="query.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/homework-to-05-09/refactored/query.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+              <folding>
+                <marker date="1473270361264" expanded="true" signature="84:289" ph="SELECT `a`.`... author" />
+                <marker date="1473270361264" expanded="true" signature="373:579" ph="SELECT `ab`.... author_book" />
+                <marker date="1473270361264" expanded="true" signature="663:720" ph="INSERT INTO `author`... " />
+                <marker date="1473270361264" expanded="true" signature="1055:1067" ph="DELETE FROM " />
+                <marker date="1473270361264" expanded="true" signature="1055:1080" ph="DELETE FROM " />
+                <marker date="1473270361264" expanded="true" signature="1055:1086" ph="DELETE FROM " />
+                <marker date="1473270361264" expanded="true" signature="1055:1097" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deletefromdb.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homework-to-05-09/refactored/deletefromdb.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -88,15 +108,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/homework-to-05-09/refactored/deletefromdb.php" />
         <option value="$PROJECT_DIR$/homework-to-05-09/addtodb.php" />
-        <option value="$PROJECT_DIR$/homework-to-05-09/refactored/query.php" />
         <option value="$PROJECT_DIR$/homework-to-05-09/refactored/forms/addnewauthor.php" />
         <option value="$PROJECT_DIR$/homework-to-05-09/refactored/addtodb.php" />
         <option value="$PROJECT_DIR$/homework-to-05-09/refactored/index.php" />
         <option value="$PROJECT_DIR$/homework-to-05-09/refactored/sasha.php" />
         <option value="$PROJECT_DIR$/homework-to-05-09/sasha.php" />
         <option value="$PROJECT_DIR$/classwork-07-09/index.php" />
+        <option value="$PROJECT_DIR$/homework-to-05-09/refactored/deletefromdb.php" />
+        <option value="$PROJECT_DIR$/homework-to-05-09/refactored/query.php" />
       </list>
     </option>
   </component>
@@ -162,7 +182,25 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="classwork-07-09">
+            <PATH_ELEMENT USER_OBJECT="homework-to-05-09">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="MyEasyCode">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="homework-to-05-09">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="refactored">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -256,12 +294,12 @@
       <workItem from="1472983797981" duration="8396000" />
       <workItem from="1473057694019" duration="5030000" />
       <workItem from="1473155272492" duration="10957000" />
-      <workItem from="1473237616891" duration="11374000" />
+      <workItem from="1473237616891" duration="13694000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72095000" />
+    <option name="totallyTimeSpent" value="74415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -338,14 +376,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homework-to-05-09/refactored/deletefromdb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homework-to-05-09/addtodb.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -384,27 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homework-to-05-09/refactored/query.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-          <folding>
-            <marker date="1473243270803" expanded="true" signature="84:289" ph="SELECT `a`.`... author" />
-            <marker date="1473243270803" expanded="true" signature="373:579" ph="SELECT `ab`.... author_book" />
-            <marker date="1473243270803" expanded="true" signature="660:694" ph="DELETE FROM " />
-            <marker date="1473243270803" expanded="true" signature="841:898" ph="INSERT INTO `author`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework-to-05-09/refactored/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homework-to-05-09/refactored/forms/addnewauthor.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -425,9 +434,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classwork-07-09/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state relative-caret-position="252">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <folding>
+            <marker date="1473269598964" expanded="true" signature="579:581" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework-to-05-09/refactored/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-310">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework-to-05-09/refactored/deletefromdb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework-to-05-09/refactored/query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+          <folding>
+            <marker date="1473270361264" expanded="true" signature="84:289" ph="SELECT `a`.`... author" />
+            <marker date="1473270361264" expanded="true" signature="373:579" ph="SELECT `ab`.... author_book" />
+            <marker date="1473270361264" expanded="true" signature="663:720" ph="INSERT INTO `author`... " />
+            <marker date="1473270361264" expanded="true" signature="1055:1067" ph="DELETE FROM " />
+            <marker date="1473270361264" expanded="true" signature="1055:1080" ph="DELETE FROM " />
+            <marker date="1473270361264" expanded="true" signature="1055:1086" ph="DELETE FROM " />
+            <marker date="1473270361264" expanded="true" signature="1055:1097" ph="DELETE FROM " />
+          </folding>
         </state>
       </provider>
     </entry>

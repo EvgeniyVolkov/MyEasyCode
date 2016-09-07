@@ -30,14 +30,20 @@ function getAuthorsBooks($authorID) {
     return fetchAll($sql);
 }
 
-function deleteFromDb($idToDelete) {
-	$sql = "DELETE FROM `author` WHERE `id` = $idToDelete;";
-	$connectionObject = getDbConnection();
-	mysqli_query($connectionObject, $sql);
-}
-
 function addNewAuthor($name, $age) {
     $sql = "INSERT INTO `author` (name, age) VALUES ('$name', '$age');";
+    $connectionObject = getDbConnection();
+    mysqli_query($connectionObject, $sql);
+}
+
+//function deleteFromDb($idToDelete) {
+//	$sql = "DELETE FROM `author` WHERE `id` = $idToDelete;";
+//	$connectionObject = getDbConnection();
+//	mysqli_query($connectionObject, $sql);
+//}
+
+function delete($tableName, $condition) {
+    $sql = "DELETE FROM {$tableName} WHERE {$condition}";
     $connectionObject = getDbConnection();
     mysqli_query($connectionObject, $sql);
 }
