@@ -3,8 +3,10 @@
 $params = array(
     'key1' => 'value1',
     'key2' => 'value2',
-    'key3' => 'value3'
+    'key3' => 'value3',
+    'key4' => 'value4'
 );
+
 //echo '<pre>';
 //print_r($params);
 //echo '</pre>';
@@ -12,22 +14,44 @@ $params = array(
 // $columns; // `key1`, `key2`
 // $values; // 'value1', 'value2'
 
+/*
+$keysArray = [];
+$valuesArray = [];
 foreach ($params as $key => $value) {
-    $keyArray[] = "`" . $key . "`";
-    $valueArray[] = "'" . $value . "'";
+    $keysArray[] = "`" . $key . "`";
+    $valuesArray[] = "'" . $value . "'";
 }
 
 echo '<pre>';
-print_r($keyArray);
+print_r($keysArray);
 echo '</pre>';
 
 echo '<pre>';
-print_r($valueArray);
+print_r($valuesArray);
 echo '</pre>';
 
-$keyCollector = implode(",", $keyArray);
-echo $keyCollector;
+$keysCollector = implode(", ", $keysArray);
+echo $keysCollector;
 echo '<br />';
-$valueCollector = implode(",", $valueArray);
-echo $valueCollector;
+$valuesCollector = implode(", ", $valuesArray);
+echo $valuesCollector;
+*/
 
+function insert($tableName, $params) {
+    $columns = implode(
+        ', ',
+        array_map(function($element) {
+            return '`' . $element . '`';
+        }, array_keys($params))
+    );
+    $values = implode(
+        ', ',
+        array_map(function($element) {
+            return "'" . $element . "'";
+        }, array_values($params))
+    );
+    $sql = "INSERT INTO `{$tableName}` ($columns) VALUES ($values)";
+    echo $sql;exit;
+}
+
+insert('table', $params);
