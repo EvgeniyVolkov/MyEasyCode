@@ -2,8 +2,12 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
+?>
 
-if(isset($_GET['idToEdit'])) {
+<a href="index.php">На главную</a><br />
+
+<?php
+if((isset($_GET['idToEdit'])) && (isset($_GET['name'])) && (isset($_GET['age']))) {
 	$idToEdit = $_GET['idToEdit'];
 	$name = $_GET['name'];
 	$age = $_GET['age'];
