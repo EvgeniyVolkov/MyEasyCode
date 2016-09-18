@@ -160,17 +160,17 @@ CREATE TABLE author_book (
 INSERT INTO author (name, age) VALUES ('Sergey Zhadan', 42), ('Lina Kostenko', 86),
  ('Joanne Rowling', 51), ('Paulo Coelho', 69), ('Robin Sharma', 51), ('Haruki Murakami', 
   67), ('Gregory Roberts', 64), ('Andrey Polyakov', 48), ('Igor Sid', 53),
- ('Richard Bach', 80);
+ ('Richard Bach', 80), ('Jack', 29);
 
 INSERT INTO book (title, page_count) VALUES ('Shantaram', 864), ('Norwegian Wood', 384), 
 ('Alchemist', 224), ('Harry Potter', 399), ('The Monk Who Sold His Ferrari', 256), 
 ('Kordon', 256), ('Richka Geraklita', 288), ('The Saint, the Surfer, and the CEO', 224), 
-('Jonathan Livingston Seagull', 176);
+('Jonathan Livingston Seagull', 176), ('Kordon', 256);
 
 INSERT INTO author_book (author_id, book_id) VALUES (1, 6), (2, 7), (3, 4), 
-(4, 3), (5, 5), (5, 8), (6, 2), (7, 1), (8, 6), (9, 6), (10, 9);
+(4, 3), (5, 5), (5, 8), (6, 2), (7, 1), (8, 6), (9, 6), (10, 9), (15, 10);
 
-/* Склеить автора и книгу: */
+/* Вывести автора и книгу: */
 SELECT 
    `a`.`name`,
    `b`.`title`

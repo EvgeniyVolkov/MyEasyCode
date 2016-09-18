@@ -17,15 +17,16 @@ function getAuthorsWithBooksQuantity() {
 	return fetchAll($sql);
 }
 
-function getAuthorsBooks($authorID) {
+function getAuthorBooks($authorID) {
 	$sql = "
 		SELECT
         	`ab`.`author_id`,
-        	`b`.`title`
+        	`b`.`title`,
+        	`ab`.`book_id`
         FROM `author_book` AS `ab`
         LEFT JOIN `book` AS `b`
         	ON `b`.`id` = `ab`.`book_id`
-        WHERE `ab`.`author_id` = '{$authorID}';";
+        WHERE `ab`.`author_id` = {$authorID};";
 
     return fetchAll($sql);
 }
@@ -50,4 +51,29 @@ function editAuthor($authorId, $newName, $newAge) {
 	// echo '$idAuthorToEdit = ' . $idAuthorToEdit . '<br />';
 	// echo '$newName = ' . $newName . '<br />';
 	// echo '$newAge = ' . $newAge . '<br />';
+}
+
+function getOtherAuthorsBooks($authorID, $booksID) {
+	$sql = "
+		SELECT DISTINCT
+		    `b`.`id`,
+		    `b`.`title`
+        FROM `author_book` AS `ab`
+        LEFT JOIN `book` AS `b`
+        	ON `b`.`id` = `ab`.`book_id`
+        WHERE (`ab`.`author_id` != {$authorID}) && (`ab`.`book_id` NOT IN ({$booksID}))";
+
+    return fetchAll($sql);
+}
+
+function addNewBooks($authorID, $bookID) {
+	$sql = "INSERT INTO `author_book` (`author_id`, `book_id`) VALUES ({$authorID}, {$bookID})";
+    $connectionObject = getDbConnection();
+    mysqli_query($connectionObject, $sql);
+}
+
+function cutBooks($authorID, $booksToCutID) {
+	$sql = "DELETE FROM `author_book` WHERE `author_id` = {$authorID} && `book_id` IN ({$booksToCutID})";
+    $connectionObject = getDbConnection();
+    mysqli_query($connectionObject, $sql);
 }
