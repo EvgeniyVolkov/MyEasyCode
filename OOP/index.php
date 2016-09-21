@@ -20,22 +20,22 @@ class Human
 
     public function breath()
     {
-        echo 'дышать';
+        return 'дышать';
     }
 
     public function drink()
     {
-        echo 'пить';
+        return 'пить';
     }
 
     public function eat()
     {
-        echo 'питаться';
+        return 'питаться';
     }
 
     public function think()
     {
-        echo 'думать';
+        return 'думать';
     }
 }
 
