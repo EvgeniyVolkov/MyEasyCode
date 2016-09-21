@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="14ede1ad-db21-4dd5-a424-aa3eea7d2f8e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homework-authors-19-09/query.php" afterPath="$PROJECT_DIR$/homework-authors-19-09/query.php" />
     </list>
     <ignored path="MyEasyCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,13 +43,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1258">
               <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
-              <folding>
-                <marker date="1474461594507" expanded="true" signature="84:289" ph="SELECT `a`.`... author" />
-                <marker date="1474461594507" expanded="true" signature="372:590" ph="SELECT `ab`.... author_book" />
-                <marker date="1474461594507" expanded="true" signature="909:983" ph="UPDATE `auth... " />
-                <marker date="1474461594507" expanded="true" signature="1328:1522" ph="SELECT DISTI... author_book" />
-                <marker date="1474461594507" expanded="true" signature="1328:1548" ph="SELECT `b`.`... book" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -156,6 +151,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -168,25 +167,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="MyEasyCode">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="homework-authors-19-09">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane />
       </pane>
     </panes>
   </component>
@@ -309,11 +290,14 @@
       <workItem from="1474454954610" duration="868000" />
       <workItem from="1474458321628" duration="662000" />
       <workItem from="1474460565130" duration="1060000" />
+      <workItem from="1474470457947" duration="355000" />
+      <workItem from="1474470944783" duration="85000" />
+      <workItem from="1474479380983" duration="453000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130655000" />
+    <option name="totallyTimeSpent" value="131548000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -328,7 +312,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16187595" sideWeight="0.4907162" order="2" side_tool="false" content_ui="combo" x="24" y="126" width="261" height="557" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16868381" sideWeight="0.4907162" order="2" side_tool="false" content_ui="combo" x="24" y="126" width="261" height="557" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -688,13 +672,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1258">
           <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
-          <folding>
-            <marker date="1474461594507" expanded="true" signature="84:289" ph="SELECT `a`.`... author" />
-            <marker date="1474461594507" expanded="true" signature="372:590" ph="SELECT `ab`.... author_book" />
-            <marker date="1474461594507" expanded="true" signature="909:983" ph="UPDATE `auth... " />
-            <marker date="1474461594507" expanded="true" signature="1328:1522" ph="SELECT DISTI... author_book" />
-            <marker date="1474461594507" expanded="true" signature="1328:1548" ph="SELECT `b`.`... book" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>

@@ -61,7 +61,7 @@ function getOtherAuthorsBooks($authorID, $booksID) {
         FROM `book` AS `b`
         LEFT JOIN `author_book` AS `ab`
         	ON `b`.`id` = `ab`.`book_id`
-        WHERE `ab`.`book_id` NOT IN ({$booksID})
+        WHERE `b`.`id` NOT IN ({$booksID})
         GROUP BY `b`.`id`";
 
     return fetchAll($sql);
