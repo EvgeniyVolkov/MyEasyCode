@@ -56,3 +56,36 @@ echo '- ' . $john->drink() . '<br />';
 echo '- ' . $john->eat() . '<br />';
 echo '- ' . $john->think() . '<br />';
 
+class Cat
+{
+    public $name;
+
+    public $age;
+
+    public $weight;
+
+    public function breath()
+    {
+        return 'дышать';
+    }
+
+    public function drink()
+    {
+        return 'пить';
+    }
+
+    public function eat()
+    {
+        return 'питаться';
+    }
+
+    public function think()
+    {
+        return 'думать';
+    }
+
+    public function miu()
+    {
+        return 'мяукать';
+    }
+}
