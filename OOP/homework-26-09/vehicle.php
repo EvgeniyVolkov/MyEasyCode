@@ -4,6 +4,10 @@ class Vehicle
 {
     public $type;
 
+    public $brand;
+
+    public $model;
+
     public $color;
 
     public $capacity;

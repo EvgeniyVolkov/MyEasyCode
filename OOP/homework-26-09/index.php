@@ -11,7 +11,8 @@ $car = new Vehicle();
 $car->type = 'car';
 
 $bmwX5 = new Car();
-$bmwX5->name = 'BMW X5';
+$bmwX5->brand = 'BMW';
+$bmwX5->model = 'X5';
 
 $nick = new Human();
 $nick->name = 'Nick';
@@ -23,6 +24,6 @@ $marti = new Driver();
 $marti->name = 'Marti';
 $marti->age = 18;
 echo $marti->hello();
-$marti->buy($car);
-$marti->drive($bmwX5);
+$marti->drive($car);
+$marti->buy($bmwX5);
 $marti->transport($nick);

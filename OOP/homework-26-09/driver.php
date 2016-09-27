@@ -11,15 +11,15 @@ class Driver extends Human
 		return $str;
 	}
 
-	public function buy(Vehicle $vehicle)
+	public function drive(Vehicle $vehicle)
 	{
-		echo 'I have a lot of money, so I can buy anything, including even a cool ' . $vehicle->type . '!<br />';
+		echo 'I can drive any vehicle, including a ' . $vehicle->type . '.<br />';
 	}
 
-	public function drive(Car $car)
-	{
-		echo 'I can drive a car. For example: ' . $car->name . '.<br />';
-	}
+    public function buy(Car $car)
+    {
+        echo 'I can buy ' . $car->brand . ' ' . $car->model . '!<br />';
+    }
 
 	public function transport(Human $human)
 	{
