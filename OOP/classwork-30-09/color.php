@@ -10,8 +10,8 @@ class Color
 
     public function __construct($red, $green, $blue)
     {
-        $this->red = $red;
-        $this->green = $green;
-        $this->blue = $blue;
+        $this->red = (int)$red;
+        $this->green = (int)$green;
+        $this->blue = (int)$blue;
     }
 }
