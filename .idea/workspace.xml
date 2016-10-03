@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14ede1ad-db21-4dd5-a424-aa3eea7d2f8e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP/classwork-30-09/color.php" afterPath="$PROJECT_DIR$/OOP/classwork-30-09/color.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP/classwork-30-09/index.php" afterPath="$PROJECT_DIR$/OOP/classwork-30-09/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP/index.php" afterPath="$PROJECT_DIR$/OOP/index.php" />
     </list>
     <ignored path="MyEasyCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +29,8 @@
       <file leaf-file-name="classwork-19-09.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classwork-19-09.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="23" />
               <folding>
                 <marker date="1474458310079" expanded="true" signature="900:955" ph="INSERT INTO " />
               </folding>
@@ -38,74 +38,89 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Driver.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../easycode2/oop/27.09/homework/Driver.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Human.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../easycode2/oop/27.09/homework/Human.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../easycode2/oop/27.09/homework/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/OOP/classwork-30-09/index.php">
+        <entry file="file://$PROJECT_DIR$/OOP/homework-03-10/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="360">
+              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+              <folding>
+                <marker date="1475531880786" expanded="true" signature="100:157" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="color.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OOP/classwork-30-09/color.php">
+      <file leaf-file-name="positionedrectangle.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOP/homework-03-10/positionedrectangle.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="286">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+              <folding>
+                <marker date="1475529270350" expanded="true" signature="210:222" ph="..." />
+                <marker date="1475529270350" expanded="true" signature="210:223" ph="..." />
+                <marker date="1475529270350" expanded="true" signature="210:350" ph="..." />
+                <marker date="1475529270350" expanded="true" signature="235:264" ph="{...}" />
+                <marker date="1475529270350" expanded="true" signature="235:278" ph="{...}" />
+                <marker date="1475529270350" expanded="true" signature="235:279" ph="{...}" />
+                <marker date="1475529270350" expanded="true" signature="235:288" ph="{...}" />
+                <marker date="1475529270350" expanded="true" signature="235:294" ph="{...}" />
+                <marker date="1475529270350" expanded="true" signature="235:295" ph="{...}" />
+                <marker date="1475529270350" expanded="true" signature="235:308" ph="{...}" />
+                <marker date="1475529270350" expanded="true" signature="235:309" ph="{...}" />
+                <marker date="1475529270350" expanded="true" signature="235:320" ph="{...}" />
+                <marker date="1475529270350" expanded="true" signature="235:323" ph="{...}" />
+                <marker date="1475529270350" expanded="true" signature="235:334" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="component.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OOP/classwork-30-09/component.php">
+      <file leaf-file-name="renderer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOP/homework-03-10/renderer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            <state relative-caret-position="264">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="rectangle.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OOP/classwork-30-09/rectangle.php">
+        <entry file="file://$PROJECT_DIR$/OOP/homework-03-10/rectangle.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="121" selection-start-line="6" selection-start-column="121" selection-end-line="6" selection-end-column="121" />
-              <folding>
-                <marker date="1475258542819" expanded="true" signature="159:316" ph="..." />
-              </folding>
+            <state relative-caret-position="400">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="borderedrectangle.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOP/homework-03-10/borderedrectangle.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="component.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOP/homework-03-10/component.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="color.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOP/homework-03-10/color.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/homework-to-05-09/addtodb.php" />
         <option value="$PROJECT_DIR$/homework-to-05-09/refactored/forms/addnewauthor.php" />
         <option value="$PROJECT_DIR$/homework-to-05-09/refactored/addtodb.php" />
         <option value="$PROJECT_DIR$/homework-to-05-09/refactored/index.php" />
@@ -158,6 +172,18 @@
         <option value="$PROJECT_DIR$/OOP/classwork-30-09/component.php" />
         <option value="$PROJECT_DIR$/OOP/classwork-30-09/rectangle.php" />
         <option value="$PROJECT_DIR$/OOP/classwork-30-09/color.php" />
+        <option value="$PROJECT_DIR$/OOP/homework-02-10/index.php" />
+        <option value="$PROJECT_DIR$/OOP/homework-02-10/rectangle.php" />
+        <option value="$PROJECT_DIR$/OOP/homework-02-10/component.php" />
+        <option value="$PROJECT_DIR$/OOP/homework-03-10/component.php" />
+        <option value="$PROJECT_DIR$/OOP/homework-03-10/BorderedRectangle.php" />
+        <option value="$PROJECT_DIR$/OOP/homework-03-10/PositionedRectangle.php" />
+        <option value="$PROJECT_DIR$/OOP/index.php" />
+        <option value="$PROJECT_DIR$/OOP/homework-03-10/borderedrectangle.php" />
+        <option value="$PROJECT_DIR$/OOP/homework-03-10/rectangle.php" />
+        <option value="$PROJECT_DIR$/OOP/homework-03-10/renderer.php" />
+        <option value="$PROJECT_DIR$/OOP/homework-03-10/positionedrectangle.php" />
+        <option value="$PROJECT_DIR$/OOP/homework-03-10/index.php" />
       </list>
     </option>
   </component>
@@ -260,7 +286,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="classwork-30-09">
+            <PATH_ELEMENT USER_OBJECT="homework-03-10">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -402,12 +428,15 @@
       <workItem from="1474966844784" duration="1954000" />
       <workItem from="1474969074479" duration="3035000" />
       <workItem from="1475080925670" duration="2741000" />
-      <workItem from="1475251277409" duration="6597000" />
+      <workItem from="1475251277409" duration="7195000" />
+      <workItem from="1475322412317" duration="1290000" />
+      <workItem from="1475406455392" duration="13881000" />
+      <workItem from="1475495556021" duration="16296000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153713000" />
+    <option name="totallyTimeSpent" value="185778000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -422,11 +451,11 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14934114" sideWeight="0.4907162" order="2" side_tool="false" content_ui="combo" x="24" y="126" width="261" height="557" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14787701" sideWeight="0.4907162" order="2" side_tool="false" content_ui="combo" x="24" y="126" width="261" height="557" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1511811" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1480315" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.113464445" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="16" y="107" width="150" height="422" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -459,84 +488,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/homework-to-05-09/refactored/addtodb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework-to-05-09/refactored/query.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework-to-05-09/refactored/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework-to-05-09/refactored/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework-to-05-09/refactored/deletefromdb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework-to-05-09/rerefactored/author.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework-to-05-09/rerefactored/deletefromdb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework-to-05-09/rerefactored/addtodb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework-to-05-09/rerefactored/query.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework-to-05-09/rerefactored/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="993">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classwork-07-09/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework-15-09/author.php" />
     <entry file="file://$PROJECT_DIR$/homework-15-09/index.php" />
     <entry file="file://$PROJECT_DIR$/homework-authors-15-09/index.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -594,18 +545,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OOP/homework-26-09/driver.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OOP/homework-26-09/human.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -651,13 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../easycode2/oop/27.09/homework/Car.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OOP/classwork-28-09/Vehicle.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -669,7 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -677,7 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -692,7 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -700,7 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -708,7 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -716,7 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -724,73 +654,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classwork-19-09.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-          <folding>
-            <marker date="1474458310079" expanded="true" signature="900:955" ph="INSERT INTO " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classwork-30-09/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classwork-30-09/color.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classwork-30-09/component.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classwork-30-09/rectangle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../easycode2/oop/27.09/homework/Driver.php">
+    <entry file="file://$PROJECT_DIR$/classwork-30-09/index.php" />
+    <entry file="file://$PROJECT_DIR$/classwork-30-09/color.php" />
+    <entry file="file://$PROJECT_DIR$/classwork-30-09/component.php" />
+    <entry file="file://$PROJECT_DIR$/classwork-30-09/rectangle.php" />
+    <entry file="file://$PROJECT_DIR$/../easycode2/oop/27.09/homework/Car.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../easycode2/oop/27.09/homework/Human.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
+        <state relative-caret-position="576">
           <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../easycode2/oop/27.09/homework/index.php">
+    <entry file="file://$PROJECT_DIR$/OOP/classwork-30-09/rectangle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="150">
+          <caret line="6" column="121" selection-start-line="6" selection-start-column="121" selection-end-line="6" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/classwork-30-09/component.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -802,29 +697,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OOP/classwork-30-09/component.php">
+    <entry file="file://$PROJECT_DIR$/OOP/classwork-30-09/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="104">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OOP/classwork-30-09/rectangle.php">
+    <entry file="file://$PROJECT_DIR$/OOP/homework-02-10/component.php" />
+    <entry file="file://$PROJECT_DIR$/OOP/homework-02-10/rectangle.php" />
+    <entry file="file://$PROJECT_DIR$/OOP/homework-02-10/color.php" />
+    <entry file="file://$PROJECT_DIR$/OOP/homework-02-10/index.php" />
+    <entry file="file://$PROJECT_DIR$/../easycode2/oop/27.09/homework/Driver.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="121" selection-start-line="6" selection-start-column="121" selection-end-line="6" selection-end-column="121" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../easycode2/oop/27.09/homework/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="95" column="73" selection-start-line="95" selection-start-column="73" selection-end-line="95" selection-end-column="105" />
           <folding>
-            <marker date="1475258542819" expanded="true" signature="159:316" ph="..." />
+            <marker date="1475515480924" expanded="true" signature="1561:1648" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OOP/classwork-30-09/index.php">
+    <entry file="file://$PROJECT_DIR$/classwork-19-09.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="23" />
+          <folding>
+            <marker date="1474458310079" expanded="true" signature="900:955" ph="INSERT INTO " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/homework-26-09/driver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/homework-03-10/positionedrectangle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <folding>
+            <marker date="1475529270350" expanded="true" signature="210:222" ph="..." />
+            <marker date="1475529270350" expanded="true" signature="210:223" ph="..." />
+            <marker date="1475529270350" expanded="true" signature="210:350" ph="..." />
+            <marker date="1475529270350" expanded="true" signature="235:264" ph="{...}" />
+            <marker date="1475529270350" expanded="true" signature="235:278" ph="{...}" />
+            <marker date="1475529270350" expanded="true" signature="235:279" ph="{...}" />
+            <marker date="1475529270350" expanded="true" signature="235:288" ph="{...}" />
+            <marker date="1475529270350" expanded="true" signature="235:294" ph="{...}" />
+            <marker date="1475529270350" expanded="true" signature="235:295" ph="{...}" />
+            <marker date="1475529270350" expanded="true" signature="235:308" ph="{...}" />
+            <marker date="1475529270350" expanded="true" signature="235:309" ph="{...}" />
+            <marker date="1475529270350" expanded="true" signature="235:320" ph="{...}" />
+            <marker date="1475529270350" expanded="true" signature="235:323" ph="{...}" />
+            <marker date="1475529270350" expanded="true" signature="235:334" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/homework-03-10/renderer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/homework-03-10/rectangle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/homework-03-10/borderedrectangle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/homework-03-10/component.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/homework-03-10/color.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/homework-03-10/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <marker date="1475531880786" expanded="true" signature="100:157" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
