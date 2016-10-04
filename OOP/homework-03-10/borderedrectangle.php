@@ -3,7 +3,7 @@ require_once 'rectangle.php';
 
 class BorderedRectangle extends Rectangle
 {
-    public $addBorderColor;
+    private $addBorderColor;
 
     public function setBorderColor(Color $borderColor)
     {

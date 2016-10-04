@@ -3,11 +3,11 @@ require_once 'color.php';
 
 abstract class Component
 {
-    public $color;
+    protected $color;
 
-    public $width;
+    protected $width;
 
-    public $height;
+    protected $height;
 
     public function __construct(Color $color, $width, $height)
     {

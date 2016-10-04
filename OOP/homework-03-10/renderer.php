@@ -3,7 +3,7 @@ require_once 'component.php';
 
 class Renderer extends Component
 {
-    public $array;
+    private $array;
 
     public function __construct(array $arr)
     {

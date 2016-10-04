@@ -3,9 +3,9 @@ require_once 'rectangle.php';
 
 class PositionedRectangle extends Rectangle
 {
-    public $setPosition;
+    private $setPosition;
 
-    public $divId;
+    private $divId;
 
     public function setPosition($left, $top)
     {
