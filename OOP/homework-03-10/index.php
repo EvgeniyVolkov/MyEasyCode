@@ -24,16 +24,13 @@ $bordRec->render();//выводим второй прямоугольник
 
 echo '<br />';
 
-$color3 = new Color(34,139,34);//создаем цвет для 3-го прямоугольника
+$color3 = new Color(34, 139, 34);//создаем цвет для 3-го прямоугольника
 $posRec = new PositionedRectangle($color3, 150, 100);//создаем 3-й прямоугольник
-$posRec->setPosition(130, 130);//задаем позиционирование для 3-го прямоугольника
+$posRec->setPosition(110, 100);//задаем позиционирование для 3-го прямоугольника
 $posRec->render();//выводим 3-й прямоугольник
 
 echo '<br />';
 
-//$renderer = new Renderer(array($rect, $bordRec));//объект класса Renderer получает на вход массив,
-//в котором $rect - объект класса Rectangle (первый прямоугольник), $bordRec - объект класса BorderedRectangle (второй прямоугольник, в рамочке)
-//echo '<br /><br />';
-//echo 'Вызов $renderer->render(); выведет следующее:<br />';
-//$renderer->render();// выведет все дивы, как будто мы бы вызывали $rect->render(); $bordRec->render();
-//выведет оба прямоугольника
+$renderer = new Renderer(array($rect, $bordRec, $posRec));//объект класса Renderer получает на вход массив с прямоугольниками,
+//в котором $rect - объект класса Rectangle (первый прямоугольник), $bordRec - объект класса BorderedRectangle (второй прямоугольник, в рамочке) и т.д.
+$renderer->render();//выводим все прямоугольники

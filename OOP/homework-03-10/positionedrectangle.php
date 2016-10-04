@@ -9,21 +9,14 @@ class PositionedRectangle extends Rectangle
 
     public function setPosition($left, $top)
     {
-        $setPosition = '<style>
-        div.#positioned{
-        position: absolute;
-        left: ' . $left . 'px;
-        top: ' . $top . 'px;
-        }
-        </style>';
+        $setPosition = 'position:absolute;left:' . $left . 'px;top:' . $top . 'px;';
         $this->setPosition = $setPosition;
-        $this->divId = 'id="positioned";';
     }
 
     public function render()
     {
         $this->divConstruct();
-        $createPositionedRect = $this->setPosition . $this->divElements['divBegin'] . $this->divId . $this->divElements['divEnd'];
+        $createPositionedRect = $this->divElements['divBegin'] . $this->setPosition . $this->divElements['divEnd'];
         echo $createPositionedRect;
     }
 }

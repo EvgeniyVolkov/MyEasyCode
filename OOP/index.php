@@ -94,3 +94,5 @@ echo '<br /><br />';
 echo '<div style="background-color:RGB(' . 127 . ',' . 0 . ',' . 0 . ');width:' . 100 . 'px;height:' . 50 . 'px"></div>';
 echo '<hr />';
 echo '<div style="background-color:RGB(3,1,150);width:100px;height:100px;border:solid 5px RGB(247,94,37);"></div>';
+echo '<hr />';
+echo '<div style="background-color:RGB(34,139,34);width:150px;height:100px;position:absolute;left:130px;top:70px;">Позиционированный див</div>';
