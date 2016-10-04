@@ -5,8 +5,6 @@ class PositionedRectangle extends Rectangle
 {
     private $setPosition;
 
-    private $divId;
-
     public function setPosition($left, $top)
     {
         $setPosition = 'position:absolute;left:' . $left . 'px;top:' . $top . 'px;';

@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14ede1ad-db21-4dd5-a424-aa3eea7d2f8e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP/homework-03-10/borderedrectangle.php" afterPath="$PROJECT_DIR$/OOP/homework-03-10/borderedrectangle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP/homework-03-10/component.php" afterPath="$PROJECT_DIR$/OOP/homework-03-10/component.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP/homework-03-10/index.php" afterPath="$PROJECT_DIR$/OOP/homework-03-10/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP/homework-03-10/positionedrectangle.php" afterPath="$PROJECT_DIR$/OOP/homework-03-10/positionedrectangle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP/homework-03-10/rectangle.php" afterPath="$PROJECT_DIR$/OOP/homework-03-10/rectangle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP/homework-03-10/renderer.php" afterPath="$PROJECT_DIR$/OOP/homework-03-10/renderer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP/index.php" afterPath="$PROJECT_DIR$/OOP/index.php" />
     </list>
     <ignored path="MyEasyCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rectangle.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="rectangle.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/OOP/homework-03-10/rectangle.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
@@ -104,21 +97,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="positionedrectangle.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="positionedrectangle.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OOP/homework-03-10/positionedrectangle.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="110">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding>
-                <marker date="1475593870341" expanded="true" signature="206:224" ph="{...}" />
-                <marker date="1475593870341" expanded="true" signature="206:229" ph="{...}" />
-                <marker date="1475593870341" expanded="true" signature="206:238" ph="{...}" />
-                <marker date="1475593870341" expanded="true" signature="206:244" ph="{...}" />
-                <marker date="1475593870341" expanded="true" signature="206:245" ph="{...}" />
-                <marker date="1475593870341" expanded="true" signature="206:249" ph="{...}" />
-                <marker date="1475593870341" expanded="true" signature="206:260" ph="{...}" />
-                <marker date="1475593870341" expanded="true" signature="206:263" ph="{...}" />
-                <marker date="1475593870341" expanded="true" signature="206:264" ph="..." />
+                <marker date="1475594180929" expanded="true" signature="185:203" ph="{...}" />
+                <marker date="1475594180929" expanded="true" signature="185:208" ph="{...}" />
+                <marker date="1475594180929" expanded="true" signature="185:217" ph="{...}" />
+                <marker date="1475594180929" expanded="true" signature="185:223" ph="{...}" />
+                <marker date="1475594180929" expanded="true" signature="185:224" ph="{...}" />
+                <marker date="1475594180929" expanded="true" signature="185:228" ph="{...}" />
+                <marker date="1475594180929" expanded="true" signature="185:239" ph="{...}" />
+                <marker date="1475594180929" expanded="true" signature="185:242" ph="{...}" />
+                <marker date="1475594180929" expanded="true" signature="185:243" ph="..." />
               </folding>
             </state>
           </provider>
@@ -180,9 +173,9 @@
         <option value="$PROJECT_DIR$/OOP/homework-03-10/component.php" />
         <option value="$PROJECT_DIR$/OOP/homework-03-10/index.php" />
         <option value="$PROJECT_DIR$/OOP/homework-03-10/borderedrectangle.php" />
-        <option value="$PROJECT_DIR$/OOP/homework-03-10/positionedrectangle.php" />
         <option value="$PROJECT_DIR$/OOP/homework-03-10/renderer.php" />
         <option value="$PROJECT_DIR$/OOP/homework-03-10/rectangle.php" />
+        <option value="$PROJECT_DIR$/OOP/homework-03-10/positionedrectangle.php" />
       </list>
     </option>
   </component>
@@ -432,12 +425,12 @@
       <workItem from="1475406455392" duration="13881000" />
       <workItem from="1475495556021" duration="16660000" />
       <workItem from="1475563511053" duration="2461000" />
-      <workItem from="1475580631252" duration="7000000" />
+      <workItem from="1475580631252" duration="7214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195603000" />
+    <option name="totallyTimeSpent" value="195817000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -779,14 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OOP/homework-03-10/rectangle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OOP/homework-03-10/borderedrectangle.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -797,19 +782,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OOP/homework-03-10/positionedrectangle.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <marker date="1475594180929" expanded="true" signature="185:203" ph="{...}" />
+            <marker date="1475594180929" expanded="true" signature="185:208" ph="{...}" />
+            <marker date="1475594180929" expanded="true" signature="185:217" ph="{...}" />
+            <marker date="1475594180929" expanded="true" signature="185:223" ph="{...}" />
+            <marker date="1475594180929" expanded="true" signature="185:224" ph="{...}" />
+            <marker date="1475594180929" expanded="true" signature="185:228" ph="{...}" />
+            <marker date="1475594180929" expanded="true" signature="185:239" ph="{...}" />
+            <marker date="1475594180929" expanded="true" signature="185:242" ph="{...}" />
+            <marker date="1475594180929" expanded="true" signature="185:243" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/homework-03-10/rectangle.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <marker date="1475593870341" expanded="true" signature="206:224" ph="{...}" />
-            <marker date="1475593870341" expanded="true" signature="206:229" ph="{...}" />
-            <marker date="1475593870341" expanded="true" signature="206:238" ph="{...}" />
-            <marker date="1475593870341" expanded="true" signature="206:244" ph="{...}" />
-            <marker date="1475593870341" expanded="true" signature="206:245" ph="{...}" />
-            <marker date="1475593870341" expanded="true" signature="206:249" ph="{...}" />
-            <marker date="1475593870341" expanded="true" signature="206:260" ph="{...}" />
-            <marker date="1475593870341" expanded="true" signature="206:263" ph="{...}" />
-            <marker date="1475593870341" expanded="true" signature="206:264" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
