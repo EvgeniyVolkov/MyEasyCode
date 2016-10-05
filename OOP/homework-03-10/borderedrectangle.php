@@ -7,7 +7,8 @@ class BorderedRectangle extends Rectangle
 
     public function setBorderColor(Color $borderColor)
     {
-        $addBorderColor = 'border:solid 5px RGB(' . $borderColor->red . ',' . $borderColor->green . ',' . $borderColor->blue . ')';
+        //$addBorderColor = 'border:solid 5px RGB(' . $borderColor->red . ',' . $borderColor->green . ',' . $borderColor->blue . ')';
+        $addBorderColor = "border:solid 5px RGB({$borderColor->red}, {$borderColor->green}, {$borderColor->blue})";
         $this->addBorderColor = $addBorderColor;
     }
 
